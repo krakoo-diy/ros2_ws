@@ -1,0 +1,36 @@
+running develop
+Removing /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot-description.egg-link (link to .)
+running egg_info
+writing ../../build/rosbot_description/rosbot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosbot_description/rosbot_description.egg-info/dependency_links.txt
+writing requirements to ../../build/rosbot_description/rosbot_description.egg-info/requires.txt
+writing top-level names to ../../build/rosbot_description/rosbot_description.egg-info/top_level.txt
+reading manifest file '../../build/rosbot_description/rosbot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosbot_description/rosbot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description
+copying /home/user/ros2_ws/build/rosbot_description/build/lib/rosbot_description/__init__.py -> /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description
+byte-compiling /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/rosbot_description -> /home/user/ros2_ws/install/rosbot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description
+copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/launch
+copying launch/display.launch.py -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/launch
+copying urdf/rosbot.gazebo -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+copying urdf/rosbot.ros2control -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+copying urdf/materials.xacro -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+copying urdf/rosbot.xacro -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+copying meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+copying meshes/base_link.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+copying meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+copying meshes/lidar_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+copying config/display.rviz -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+copying config/gazebo.rviz -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+running install_egg_info
+Copying ../../build/rosbot_description/rosbot_description.egg-info to /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/user/ros2_ws/build/rosbot_description/install.log'

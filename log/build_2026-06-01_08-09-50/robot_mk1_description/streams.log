@@ -1,0 +1,40 @@
+[3.428s] Invoking command in '/home/user/ros2_ws/build/robot_mk1_description': PYTHONPATH=/home/user/ros2_ws/build/robot_mk1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/robot_mk1_description/build
+[4.539s] running develop
+[5.421s] Removing /home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages/robot-mk1-description.egg-link (link to .)
+[5.526s] Invoked command in '/home/user/ros2_ws/build/robot_mk1_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_mk1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/robot_mk1_description/build
+[5.527s] Invoking command in '/home/user/ros2_ws/src/robot_mk1_description': PYTHONPATH=/home/user/ros2_ws/build/robot_mk1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mk1_description build --build-base /home/user/ros2_ws/build/robot_mk1_description/build install --record /home/user/ros2_ws/build/robot_mk1_description/install.log --single-version-externally-managed install_data --force
+[6.610s] running egg_info
+[6.635s] writing ../../build/robot_mk1_description/robot_mk1_description.egg-info/PKG-INFO
+[6.636s] writing dependency_links to ../../build/robot_mk1_description/robot_mk1_description.egg-info/dependency_links.txt
+[6.636s] writing requirements to ../../build/robot_mk1_description/robot_mk1_description.egg-info/requires.txt
+[6.637s] writing top-level names to ../../build/robot_mk1_description/robot_mk1_description.egg-info/top_level.txt
+[6.746s] reading manifest file '../../build/robot_mk1_description/robot_mk1_description.egg-info/SOURCES.txt'
+[6.747s] writing manifest file '../../build/robot_mk1_description/robot_mk1_description.egg-info/SOURCES.txt'
+[6.809s] running build
+[6.809s] running build_py
+[6.809s] running install
+[6.817s] running install_lib
+[6.849s] creating /home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages/robot_mk1_description
+[6.909s] copying /home/user/ros2_ws/build/robot_mk1_description/build/lib/robot_mk1_description/__init__.py -> /home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages/robot_mk1_description
+[6.909s] byte-compiling /home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages/robot_mk1_description/__init__.py to __init__.cpython-312.pyc
+[6.910s] running install_data
+[6.910s] copying resource/robot_mk1_description -> /home/user/ros2_ws/install/robot_mk1_description/share/ament_index/resource_index/packages
+[6.910s] copying package.xml -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description
+[6.910s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/launch
+[6.911s] copying launch/display.launch.py -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/launch
+[6.911s] copying urdf/robot_mk1.gazebo -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/urdf
+[6.911s] copying urdf/robot_mk1.xacro -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/urdf
+[6.911s] copying urdf/materials.xacro -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/urdf
+[6.912s] copying urdf/robot_mk1.ros2control -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/urdf
+[6.912s] copying meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/meshes
+[6.912s] copying meshes/base_link.stl -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/meshes
+[6.912s] copying meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/meshes
+[6.913s] copying meshes/lidar_1.stl -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/meshes
+[6.913s] copying config/display.rviz -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/config
+[6.913s] copying config/gazebo.rviz -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/config
+[6.913s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/robot_mk1_description/share/robot_mk1_description/config
+[6.913s] running install_egg_info
+[7.013s] Copying ../../build/robot_mk1_description/robot_mk1_description.egg-info to /home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages/robot_mk1_description-0.0.0-py3.12.egg-info
+[7.014s] running install_scripts
+[7.539s] writing list of installed files to '/home/user/ros2_ws/build/robot_mk1_description/install.log'
+[7.633s] Invoked command in '/home/user/ros2_ws/src/robot_mk1_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_mk1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mk1_description build --build-base /home/user/ros2_ws/build/robot_mk1_description/build install --record /home/user/ros2_ws/build/robot_mk1_description/install.log --single-version-externally-managed install_data --force

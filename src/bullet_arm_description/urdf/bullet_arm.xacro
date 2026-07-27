@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<robot name="bullet_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find bullet_arm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find bullet_arm_description)/urdf/bullet_arm.ros2control" />
+<xacro:include filename="$(find bullet_arm_description)/urdf/bullet_arm.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 0.0 0.005" rpy="0 0 0"/>
+    <mass value="0.7849999999999999"/>
+    <inertia ixx="0.000661" iyy="0.000661" izz="0.001308" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_1_1">
+  <inertial>
+    <origin xyz="0.0 0.0 0.1" rpy="0 0 0"/>
+    <mass value="5.651999999999999"/>
+    <inertia ixx="0.020536" iyy="0.020536" izz="0.003391" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_2_1">
+  <inertial>
+    <origin xyz="0.028545454545454554 -2.3394032727765785e-17 0.0053244562779833915" rpy="0 0 0"/>
+    <mass value="6.103721826843266"/>
+    <inertia ixx="0.002534" iyy="0.076656" izz="0.076829" ixy="0.0" iyz="-0.0" ixz="0.00369"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.21" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.21" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bullet_arm_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="0.0 0.0 0.01" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Slider 2" type="prismatic">
+  <origin xyz="0.0 0.0 0.2" rpy="0 0 0"/>
+  <parent link="joint_1_1"/>
+  <child link="joint_2_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.0" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+</robot>

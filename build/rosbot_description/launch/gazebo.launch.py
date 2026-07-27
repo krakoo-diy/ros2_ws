@@ -1,0 +1,1 @@
+/home/user/ros2_ws/src/rosbot_description/launch/gazebo.launch.py

@@ -1,0 +1,19 @@
+[4.517s] Invoking command in '/home/user/ros2_ws/src/bullet_arm_description': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_arm_description build --build-base /home/user/ros2_ws/build/bullet_arm_description/build install --record /home/user/ros2_ws/build/bullet_arm_description/install.log --single-version-externally-managed install_data
+[5.419s] running egg_info
+[5.444s] writing ../../build/bullet_arm_description/bullet_arm_description.egg-info/PKG-INFO
+[5.444s] writing dependency_links to ../../build/bullet_arm_description/bullet_arm_description.egg-info/dependency_links.txt
+[5.445s] writing requirements to ../../build/bullet_arm_description/bullet_arm_description.egg-info/requires.txt
+[5.445s] writing top-level names to ../../build/bullet_arm_description/bullet_arm_description.egg-info/top_level.txt
+[5.627s] reading manifest file '../../build/bullet_arm_description/bullet_arm_description.egg-info/SOURCES.txt'
+[5.629s] writing manifest file '../../build/bullet_arm_description/bullet_arm_description.egg-info/SOURCES.txt'
+[5.629s] running build
+[5.629s] running build_py
+[5.630s] running install
+[5.641s] running install_lib
+[5.729s] running install_data
+[5.730s] running install_egg_info
+[5.833s] removing '/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description-0.0.0-py3.12.egg-info' (and everything under it)
+[5.834s] Copying ../../build/bullet_arm_description/bullet_arm_description.egg-info to /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description-0.0.0-py3.12.egg-info
+[5.834s] running install_scripts
+[6.358s] writing list of installed files to '/home/user/ros2_ws/build/bullet_arm_description/install.log'
+[6.451s] Invoked command in '/home/user/ros2_ws/src/bullet_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_arm_description build --build-base /home/user/ros2_ws/build/bullet_arm_description/build install --record /home/user/ros2_ws/build/bullet_arm_description/install.log --single-version-externally-managed install_data

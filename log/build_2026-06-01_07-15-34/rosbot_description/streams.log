@@ -1,0 +1,15 @@
+[3.694s] Invoking command in '/home/user/ros2_ws/build/rosbot_description': PYTHONPATH=/home/user/ros2_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/rosbot_description/build --no-deps symlink_data
+[5.076s] running develop
+[5.865s] running egg_info
+[5.890s] writing rosbot_description.egg-info/PKG-INFO
+[5.890s] writing dependency_links to rosbot_description.egg-info/dependency_links.txt
+[5.890s] writing requirements to rosbot_description.egg-info/requires.txt
+[5.890s] writing top-level names to rosbot_description.egg-info/top_level.txt
+[6.006s] reading manifest file 'rosbot_description.egg-info/SOURCES.txt'
+[6.007s] writing manifest file 'rosbot_description.egg-info/SOURCES.txt'
+[6.081s] running build_ext
+[6.081s] Creating /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot-description.egg-link (link to .)
+[6.082s] 
+[6.082s] Installed /home/user/ros2_ws/build/rosbot_description
+[6.083s] running symlink_data
+[6.123s] Invoked command in '/home/user/ros2_ws/build/rosbot_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/rosbot_description/build --no-deps symlink_data

@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing robot_urdf_description.egg-info/PKG-INFO
+writing dependency_links to robot_urdf_description.egg-info/dependency_links.txt
+writing requirements to robot_urdf_description.egg-info/requires.txt
+writing top-level names to robot_urdf_description.egg-info/top_level.txt
+reading manifest file 'robot_urdf_description.egg-info/SOURCES.txt'
+writing manifest file 'robot_urdf_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages/robot-urdf-description.egg-link (link to .)
+
+Installed /home/user/ros2_ws/build/robot_urdf_description
+running symlink_data
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/resource/robot_urdf_description -> /home/user/ros2_ws/install/robot_urdf_description/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/package.xml -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/launch/gazebo.launch.py -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/launch
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/launch/display.launch.py -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/launch
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.xacro -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.gazebo -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/materials.xacro -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.ros2control -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/base_link.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/lidar_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/display.rviz -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/gazebo.rviz -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config
+symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config

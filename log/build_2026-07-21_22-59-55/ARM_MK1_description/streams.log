@@ -1,0 +1,51 @@
+[4.929s] Invoking command in '/home/user/ros2_ws/src/ARM_MK1_description': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data
+[6.438s] running egg_info
+[6.441s] creating ../../build/ARM_MK1_description/ARM_MK1_description.egg-info
+[6.614s] writing ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/PKG-INFO
+[6.614s] writing dependency_links to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/dependency_links.txt
+[6.614s] writing requirements to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/requires.txt
+[6.615s] writing top-level names to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/top_level.txt
+[6.615s] writing manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[6.810s] reading manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[6.811s] writing manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[6.811s] running build
+[6.812s] running build_py
+[6.812s] creating /home/user/ros2_ws/build/ARM_MK1_description/build
+[6.812s] creating /home/user/ros2_ws/build/ARM_MK1_description/build/lib
+[6.812s] creating /home/user/ros2_ws/build/ARM_MK1_description/build/lib/ARM_MK1_description
+[6.813s] copying ARM_MK1_description/__init__.py -> /home/user/ros2_ws/build/ARM_MK1_description/build/lib/ARM_MK1_description
+[6.813s] running install
+[6.824s] running install_lib
+[6.927s] creating /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description
+[6.928s] copying /home/user/ros2_ws/build/ARM_MK1_description/build/lib/ARM_MK1_description/__init__.py -> /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description
+[6.928s] byte-compiling /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description/__init__.py to __init__.cpython-312.pyc
+[6.929s] running install_data
+[6.929s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ament_index
+[6.929s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ament_index/resource_index
+[6.929s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ament_index/resource_index/packages
+[6.930s] copying resource/ARM_MK1_description -> /home/user/ros2_ws/install/ARM_MK1_description/share/ament_index/resource_index/packages
+[6.931s] copying package.xml -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description
+[6.931s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/launch
+[6.932s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/launch
+[6.932s] copying launch/display.launch.py -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/launch
+[6.932s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/urdf
+[6.932s] copying urdf/ARM_MK1.gazebo -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/urdf
+[6.932s] copying urdf/ARM_MK1.ros2control -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/urdf
+[6.933s] copying urdf/ARM_MK1.xacro -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/urdf
+[6.934s] copying urdf/materials.xacro -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/urdf
+[6.934s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.934s] copying meshes/joint_4_1.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.934s] copying meshes/grip_1_1.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.934s] copying meshes/joint_3_1.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.935s] copying meshes/base_link.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.935s] copying meshes/joint_1_1.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.936s] copying meshes/joint_2_1.stl -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/meshes
+[6.936s] creating /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/config
+[6.936s] copying config/display.rviz -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/config
+[6.937s] copying config/gazebo.rviz -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/config
+[6.937s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/ARM_MK1_description/share/ARM_MK1_description/config
+[6.938s] running install_egg_info
+[7.039s] Copying ../../build/ARM_MK1_description/ARM_MK1_description.egg-info to /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description-0.0.0-py3.12.egg-info
+[7.040s] running install_scripts
+[7.728s] writing list of installed files to '/home/user/ros2_ws/build/ARM_MK1_description/install.log'
+[7.912s] Invoked command in '/home/user/ros2_ws/src/ARM_MK1_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data

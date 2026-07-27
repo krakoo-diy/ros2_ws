@@ -1,0 +1,36 @@
+running develop
+Removing /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r-arm-description.egg-link (link to .)
+running egg_info
+writing ../../build/r_arm_description/r_arm_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/r_arm_description/r_arm_description.egg-info/dependency_links.txt
+writing requirements to ../../build/r_arm_description/r_arm_description.egg-info/requires.txt
+writing top-level names to ../../build/r_arm_description/r_arm_description.egg-info/top_level.txt
+reading manifest file '../../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description
+copying /home/user/ros2_ws/build/r_arm_description/build/lib/r_arm_description/__init__.py -> /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description
+byte-compiling /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/r_arm_description -> /home/user/ros2_ws/install/r_arm_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description
+copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/launch
+copying launch/display.launch.py -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/launch
+copying urdf/r_arm.ros2control -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+copying urdf/r_arm.xacro -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+copying urdf/r_arm.gazebo -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+copying urdf/materials.xacro -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+copying meshes/link1_1.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+copying meshes/base_link.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+copying meshes/link2_1.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+copying config/display.rviz -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+copying config/controller.yaml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+copying config/gazebo.rviz -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+running install_egg_info
+Copying ../../build/r_arm_description/r_arm_description.egg-info to /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/user/ros2_ws/build/r_arm_description/install.log'

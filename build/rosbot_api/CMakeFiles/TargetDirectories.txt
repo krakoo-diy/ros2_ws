@@ -1,0 +1,10 @@
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/rosbot_api_uninstall.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/lidar_r.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/test.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/install.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/install/local.dir
+/home/user/ros2_ws/build/rosbot_api/CMakeFiles/install/strip.dir

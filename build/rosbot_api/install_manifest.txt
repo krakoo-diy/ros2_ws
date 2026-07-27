@@ -1,0 +1,16 @@
+/home/user/ros2_ws/install/rosbot_api/lib/rosbot_api/lidar_r
+/home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/package_run_dependencies/rosbot_api
+/home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/parent_prefix_path/rosbot_api
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.sh
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.dsv
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.bash
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.sh
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.zsh
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.dsv
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.dsv
+/home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/packages/rosbot_api
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig.cmake
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig-version.cmake
+/home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.xml

@@ -1,0 +1,30 @@
+[3.143s] Invoking command in '/home/user/ros2_ws/build/robot_urdf_description': PYTHONPATH=/home/user/ros2_ws/build/robot_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_urdf_description/build --no-deps symlink_data --force
+[4.670s] running develop
+[5.476s] running egg_info
+[5.566s] writing robot_urdf_description.egg-info/PKG-INFO
+[5.567s] writing dependency_links to robot_urdf_description.egg-info/dependency_links.txt
+[5.567s] writing requirements to robot_urdf_description.egg-info/requires.txt
+[5.567s] writing top-level names to robot_urdf_description.egg-info/top_level.txt
+[5.749s] reading manifest file 'robot_urdf_description.egg-info/SOURCES.txt'
+[5.751s] writing manifest file 'robot_urdf_description.egg-info/SOURCES.txt'
+[5.840s] running build_ext
+[5.840s] Creating /home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages/robot-urdf-description.egg-link (link to .)
+[5.842s] 
+[5.843s] Installed /home/user/ros2_ws/build/robot_urdf_description
+[5.843s] running symlink_data
+[5.843s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/resource/robot_urdf_description -> /home/user/ros2_ws/install/robot_urdf_description/share/ament_index/resource_index/packages
+[5.843s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/package.xml -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description
+[5.843s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/launch/gazebo.launch.py -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/launch
+[5.843s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/launch/display.launch.py -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/launch
+[5.844s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.xacro -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+[5.844s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.gazebo -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+[5.844s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/materials.xacro -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+[5.844s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/urdf/robot_urdf.ros2control -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/urdf
+[5.844s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/base_link.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/meshes/lidar_1.stl -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/meshes
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/display.rviz -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/gazebo.rviz -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config
+[5.845s] symbolically linking /home/user/ros2_ws/build/robot_urdf_description/config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/robot_urdf_description/share/robot_urdf_description/config
+[6.059s] Invoked command in '/home/user/ros2_ws/build/robot_urdf_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/robot_urdf_description/build --no-deps symlink_data --force

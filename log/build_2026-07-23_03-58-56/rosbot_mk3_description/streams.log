@@ -1,0 +1,50 @@
+[6.099s] Invoking command in '/home/user/ros2_ws/src/rosbot_mk3_description': PYTHONPATH=/home/user/ros2_ws/build/rosbot_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosbot_mk3_description build --build-base /home/user/ros2_ws/build/rosbot_mk3_description/build install --record /home/user/ros2_ws/build/rosbot_mk3_description/install.log --single-version-externally-managed install_data
+[8.801s] running egg_info
+[8.801s] creating ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info
+[8.802s] writing ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/PKG-INFO
+[8.802s] writing dependency_links to ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/dependency_links.txt
+[8.802s] writing requirements to ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/requires.txt
+[8.802s] writing top-level names to ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/top_level.txt
+[8.802s] writing manifest file '../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/SOURCES.txt'
+[8.803s] reading manifest file '../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/SOURCES.txt'
+[8.803s] writing manifest file '../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/SOURCES.txt'
+[8.803s] running build
+[8.803s] running build_py
+[8.803s] creating /home/user/ros2_ws/build/rosbot_mk3_description/build
+[8.803s] creating /home/user/ros2_ws/build/rosbot_mk3_description/build/lib
+[8.804s] creating /home/user/ros2_ws/build/rosbot_mk3_description/build/lib/rosbot_mk3_description
+[8.804s] copying rosbot_mk3_description/__init__.py -> /home/user/ros2_ws/build/rosbot_mk3_description/build/lib/rosbot_mk3_description
+[8.804s] running install
+[8.804s] running install_lib
+[8.804s] creating /home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages/rosbot_mk3_description
+[8.805s] copying /home/user/ros2_ws/build/rosbot_mk3_description/build/lib/rosbot_mk3_description/__init__.py -> /home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages/rosbot_mk3_description
+[8.805s] byte-compiling /home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages/rosbot_mk3_description/__init__.py to __init__.cpython-312.pyc
+[8.805s] running install_data
+[8.805s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/ament_index
+[8.805s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/ament_index/resource_index
+[8.806s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/ament_index/resource_index/packages
+[8.806s] copying resource/rosbot_mk3_description -> /home/user/ros2_ws/install/rosbot_mk3_description/share/ament_index/resource_index/packages
+[8.806s] copying package.xml -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description
+[8.806s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/launch
+[8.806s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/launch
+[8.806s] copying launch/display.launch.py -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/launch
+[8.806s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/urdf
+[8.806s] copying urdf/rosbot_mk3.xacro -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/urdf
+[8.807s] copying urdf/rosbot_mk3.ros2control -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/urdf
+[8.808s] copying urdf/materials.xacro -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/urdf
+[8.808s] copying urdf/rosbot_mk3.gazebo -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/urdf
+[8.809s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.809s] copying meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.809s] copying meshes/camera_1.stl -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.809s] copying meshes/base_link.stl -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.809s] copying meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.809s] copying meshes/lidar_1.stl -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/meshes
+[8.810s] creating /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/config
+[8.810s] copying config/display.rviz -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/config
+[8.810s] copying config/gazebo.rviz -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/config
+[8.810s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/rosbot_mk3_description/share/rosbot_mk3_description/config
+[8.810s] running install_egg_info
+[8.810s] Copying ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info to /home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages/rosbot_mk3_description-0.0.0-py3.12.egg-info
+[8.810s] running install_scripts
+[9.235s] writing list of installed files to '/home/user/ros2_ws/build/rosbot_mk3_description/install.log'
+[9.338s] Invoked command in '/home/user/ros2_ws/src/rosbot_mk3_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/rosbot_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosbot_mk3_description build --build-base /home/user/ros2_ws/build/rosbot_mk3_description/build install --record /home/user/ros2_ws/build/rosbot_mk3_description/install.log --single-version-externally-managed install_data

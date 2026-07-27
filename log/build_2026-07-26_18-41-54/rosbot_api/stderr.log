@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:5[m[K:
+[01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:[m[K In member function '[01m[Kvoid LidarInspect::[01;32m[Klidar_calback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:21:24:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<sensor_msgs::msg::LaserScan_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K' {aka '[01m[Kstruct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'} has no member named '[01m[KRanges[m[K'; did you mean '[01m[Kranges[m[K'?
+   21 |                   msg->[01;31m[KRanges[m[K[i]);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:31:16:[m[K [01;31m[Kerror: [m[K'[01m[Klidar_hub[m[K' was not declared in this scope; did you mean '[01m[Klidar_sub[m[K'?
+   31 |   rclcpp::spin([01;31m[Klidar_hub[m[K);
+      |                [01;31m[K^~~~~~~~~[m[K
+      |                [32m[Klidar_sub[m[K
+[01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:32:11:[m[K [01;31m[Kerror: [m[K'[01m[Kshutdow[m[K' is not a member of '[01m[Krclcpp[m[K'; did you mean '[01m[Kshutdown[m[K'?
+   32 |   rclcpp::[01;31m[Kshutdow[m[K();
+      |           [01;31m[K^~~~~~~[m[K
+      |           [32m[Kshutdown[m[K
+gmake[2]: *** [CMakeFiles/lidar_r.dir/build.make:76: CMakeFiles/lidar_r.dir/src/lidar_r.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_r.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

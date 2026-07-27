@@ -1,0 +1,30 @@
+[3.563s] Invoking command in '/home/user/ros2_ws/build/rosbot_description': PYTHONPATH=/home/user/ros2_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/rosbot_description/build --no-deps symlink_data --force
+[4.948s] running develop
+[5.748s] running egg_info
+[5.845s] writing rosbot_description.egg-info/PKG-INFO
+[5.848s] writing dependency_links to rosbot_description.egg-info/dependency_links.txt
+[5.848s] writing requirements to rosbot_description.egg-info/requires.txt
+[5.848s] writing top-level names to rosbot_description.egg-info/top_level.txt
+[6.040s] reading manifest file 'rosbot_description.egg-info/SOURCES.txt'
+[6.047s] writing manifest file 'rosbot_description.egg-info/SOURCES.txt'
+[6.074s] running build_ext
+[6.074s] Creating /home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot-description.egg-link (link to .)
+[6.074s] 
+[6.075s] Installed /home/user/ros2_ws/build/rosbot_description
+[6.075s] running symlink_data
+[6.075s] symbolically linking /home/user/ros2_ws/build/rosbot_description/resource/rosbot_description -> /home/user/ros2_ws/install/rosbot_description/share/ament_index/resource_index/packages
+[6.076s] symbolically linking /home/user/ros2_ws/build/rosbot_description/package.xml -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description
+[6.077s] symbolically linking /home/user/ros2_ws/build/rosbot_description/launch/gazebo.launch.py -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/launch
+[6.077s] symbolically linking /home/user/ros2_ws/build/rosbot_description/launch/display.launch.py -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/launch
+[6.078s] symbolically linking /home/user/ros2_ws/build/rosbot_description/urdf/rosbot.gazebo -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+[6.078s] symbolically linking /home/user/ros2_ws/build/rosbot_description/urdf/rosbot.ros2control -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+[6.078s] symbolically linking /home/user/ros2_ws/build/rosbot_description/urdf/materials.xacro -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+[6.079s] symbolically linking /home/user/ros2_ws/build/rosbot_description/urdf/rosbot.xacro -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/urdf
+[6.079s] symbolically linking /home/user/ros2_ws/build/rosbot_description/meshes/right_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+[6.080s] symbolically linking /home/user/ros2_ws/build/rosbot_description/meshes/base_link.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+[6.081s] symbolically linking /home/user/ros2_ws/build/rosbot_description/meshes/left_wheel_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+[6.081s] symbolically linking /home/user/ros2_ws/build/rosbot_description/meshes/lidar_1.stl -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/meshes
+[6.081s] symbolically linking /home/user/ros2_ws/build/rosbot_description/config/display.rviz -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+[6.082s] symbolically linking /home/user/ros2_ws/build/rosbot_description/config/gazebo.rviz -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+[6.082s] symbolically linking /home/user/ros2_ws/build/rosbot_description/config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/rosbot_description/share/rosbot_description/config
+[6.160s] Invoked command in '/home/user/ros2_ws/build/rosbot_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/rosbot_description/build --no-deps symlink_data --force

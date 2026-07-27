@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<robot name="qube_1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find qube_1_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find qube_1_description)/urdf/qube_1.ros2control" />
+<xacro:include filename="$(find qube_1_description)/urdf/qube_1.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-7.932101009706335e-18 -7.932101009706335e-18 0.0585" rpy="0 0 0"/>
+    <mass value="4.500404999999999"/>
+    <inertia ixx="0.006972" iyy="0.006972" izz="0.003675" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rotor_1">
+  <inertial>
+    <origin xyz="-0.0010060541958551025 -5.4900057649598195e-18 0.00741453007005223" rpy="0 0 0"/>
+    <mass value="0.05079922239168731"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="4e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.0 -0.117" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/rotor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 -0.117" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/rotor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pendu_1">
+  <inertial>
+    <origin xyz="0.04264275286838389 -9.07509299137097e-14 -0.017698960694647797" rpy="0 0 0"/>
+    <mass value="0.019206583219762752"/>
+    <inertia ixx="1.6e-05" iyy="2.3e-05" izz="8e-06" ixy="-0.0" iyz="0.0" ixz="6e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.132" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/pendu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.132" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find qube_1_description)/meshes/pendu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Joint1" type="continuous">
+  <origin xyz="0.0 0.0 0.117" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rotor_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Joint2" type="continuous">
+  <origin xyz="0.0 0.0 0.015" rpy="0 0 0"/>
+  <parent link="rotor_1"/>
+  <child link="pendu_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+</robot>

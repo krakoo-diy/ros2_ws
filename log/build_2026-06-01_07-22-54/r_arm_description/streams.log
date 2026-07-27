@@ -1,0 +1,15 @@
+[3.279s] Invoking command in '/home/user/ros2_ws/build/r_arm_description': PYTHONPATH=/home/user/ros2_ws/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/r_arm_description/build --no-deps symlink_data
+[4.479s] running develop
+[5.270s] running egg_info
+[5.362s] writing r_arm_description.egg-info/PKG-INFO
+[5.362s] writing dependency_links to r_arm_description.egg-info/dependency_links.txt
+[5.362s] writing requirements to r_arm_description.egg-info/requires.txt
+[5.363s] writing top-level names to r_arm_description.egg-info/top_level.txt
+[5.471s] reading manifest file 'r_arm_description.egg-info/SOURCES.txt'
+[5.473s] writing manifest file 'r_arm_description.egg-info/SOURCES.txt'
+[5.565s] running build_ext
+[5.566s] Creating /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r-arm-description.egg-link (link to .)
+[5.566s] 
+[5.566s] Installed /home/user/ros2_ws/build/r_arm_description
+[5.566s] running symlink_data
+[5.666s] Invoked command in '/home/user/ros2_ws/build/r_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/r_arm_description/build --no-deps symlink_data

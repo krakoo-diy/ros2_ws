@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<robot name="ARM_MK1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find ARM_MK1_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find ARM_MK1_description)/urdf/ARM_MK1.ros2control" />
+<xacro:include filename="$(find ARM_MK1_description)/urdf/ARM_MK1.gazebo" />
+
+
+<link name="world"/>
+
+<joint name="world_to_base" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-2.5146951664307407e-16 0.0020276201555886513 0.12544118147862734" rpy="0 0 0"/>
+    <mass value="18.170398713545378"/>
+    <inertia ixx="0.132447" iyy="0.130813" izz="0.027455" ixy="-0.0" iyz="0.002411" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_1_1">
+  <inertial>
+    <origin xyz="6.141963195453391e-18 -0.06323784729884264 0.04800675125648196" rpy="0 0 0"/>
+    <mass value="11.624187872376945"/>
+    <inertia ixx="0.042184" iyy="0.014994" izz="0.041721" ixy="0.0" iyz="0.004088" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.269" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.269" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_2_1">
+  <inertial>
+    <origin xyz="-1.1984387041508612e-17 -0.05017380321125389 0.06427407434462423" rpy="0 0 0"/>
+    <mass value="11.914724356263322"/>
+    <inertia ixx="0.044691" iyy="0.043905" izz="0.01568" ixy="0.0" iyz="0.004833" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.157 -0.322" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.157 -0.322" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_3_1">
+  <inertial>
+    <origin xyz="-4.238507758075258e-17 -0.06458648147022808 0.048077443759213634" rpy="0 0 0"/>
+    <mass value="11.79111534412222"/>
+    <inertia ixx="0.043776" iyy="0.015186" izz="0.043308" ixy="-0.0" iyz="0.004166" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.213 -0.482" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.213 -0.482" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_4_1">
+  <inertial>
+    <origin xyz="0.0008921740939843348 -0.026427480830252592 -8.921036574205399e-05" rpy="0 0 0"/>
+    <mass value="2.309666929239527"/>
+    <inertia ixx="0.001612" iyy="0.002071" izz="0.001653" ixy="7.9e-05" iyz="-8e-06" ixz="5e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.373 -0.535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.373 -0.535" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/joint_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip_1_1">
+  <inertial>
+    <origin xyz="-0.02000000000000005 -2.279877564514976e-09 7.450529082575486e-11" rpy="0 0 0"/>
+    <mass value="0.0961625"/>
+    <inertia ixx="2e-05" iyy="1.1e-05" izz="1.1e-05" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02 0.438 -0.5325" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/grip_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02 0.438 -0.5325" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ARM_MK1_description)/meshes/grip_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="0.0 0.0 0.269" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Revolute 2" type="continuous">
+  <origin xyz="0.0 -0.157 0.053" rpy="0 0 0"/>
+  <parent link="joint_1_1"/>
+  <child link="joint_2_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="-0.0 -0.056 0.16" rpy="0 0 0"/>
+  <parent link="joint_2_1"/>
+  <child link="joint_3_1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Revolute 4" type="continuous">
+  <origin xyz="0.0 -0.16 0.053" rpy="0 0 0"/>
+  <parent link="joint_3_1"/>
+  <child link="joint_4_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Slider 5" type="prismatic">
+  <origin xyz="0.02 -0.065 -0.0025" rpy="0 0 0"/>
+  <parent link="joint_4_1"/>
+  <child link="grip_1_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit upper="0.035" lower="0.015" effort="100" velocity="100"/>
+</joint>
+
+</robot>

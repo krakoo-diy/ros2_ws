@@ -1,0 +1,19 @@
+[5.323s] Invoking command in '/home/user/ros2_ws/src/qube_1_description': PYTHONPATH=/home/user/ros2_ws/build/qube_1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qube_1_description build --build-base /home/user/ros2_ws/build/qube_1_description/build install --record /home/user/ros2_ws/build/qube_1_description/install.log --single-version-externally-managed install_data
+[6.613s] running egg_info
+[6.697s] writing ../../build/qube_1_description/qube_1_description.egg-info/PKG-INFO
+[6.698s] writing dependency_links to ../../build/qube_1_description/qube_1_description.egg-info/dependency_links.txt
+[6.698s] writing requirements to ../../build/qube_1_description/qube_1_description.egg-info/requires.txt
+[6.698s] writing top-level names to ../../build/qube_1_description/qube_1_description.egg-info/top_level.txt
+[6.905s] reading manifest file '../../build/qube_1_description/qube_1_description.egg-info/SOURCES.txt'
+[6.907s] writing manifest file '../../build/qube_1_description/qube_1_description.egg-info/SOURCES.txt'
+[6.908s] running build
+[6.908s] running build_py
+[6.908s] running install
+[6.996s] running install_lib
+[7.095s] running install_data
+[7.095s] running install_egg_info
+[7.202s] removing '/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages/qube_1_description-0.0.0-py3.12.egg-info' (and everything under it)
+[7.202s] Copying ../../build/qube_1_description/qube_1_description.egg-info to /home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages/qube_1_description-0.0.0-py3.12.egg-info
+[7.203s] running install_scripts
+[7.911s] writing list of installed files to '/home/user/ros2_ws/build/qube_1_description/install.log'
+[8.027s] Invoked command in '/home/user/ros2_ws/src/qube_1_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/qube_1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qube_1_description build --build-base /home/user/ros2_ws/build/qube_1_description/build install --record /home/user/ros2_ws/build/qube_1_description/install.log --single-version-externally-managed install_data

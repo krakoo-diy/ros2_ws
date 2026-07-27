@@ -1,0 +1,51 @@
+[1.987s] Invoking command in '/home/user/ros2_ws/src/r_arm_description': PYTHONPATH=/home/user/ros2_ws/src/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/r_arm_description build --build-base /home/user/ros2_ws/src/build/r_arm_description/build install --record /home/user/ros2_ws/src/build/r_arm_description/install.log --single-version-externally-managed install_data
+[3.395s] running egg_info
+[3.399s] creating ../build/r_arm_description/r_arm_description.egg-info
+[3.498s] writing ../build/r_arm_description/r_arm_description.egg-info/PKG-INFO
+[3.499s] writing dependency_links to ../build/r_arm_description/r_arm_description.egg-info/dependency_links.txt
+[3.499s] writing requirements to ../build/r_arm_description/r_arm_description.egg-info/requires.txt
+[3.505s] writing top-level names to ../build/r_arm_description/r_arm_description.egg-info/top_level.txt
+[3.513s] writing manifest file '../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+[3.708s] reading manifest file '../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+[3.708s] writing manifest file '../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+[3.710s] running build
+[3.710s] running build_py
+[3.710s] creating /home/user/ros2_ws/src/build/r_arm_description/build
+[3.710s] creating /home/user/ros2_ws/src/build/r_arm_description/build/lib
+[3.711s] creating /home/user/ros2_ws/src/build/r_arm_description/build/lib/r_arm_description
+[3.711s] copying r_arm_description/__init__.py -> /home/user/ros2_ws/src/build/r_arm_description/build/lib/r_arm_description
+[3.711s] running install
+[3.727s] running install_lib
+[3.836s] creating /home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages/r_arm_description
+[3.837s] copying /home/user/ros2_ws/src/build/r_arm_description/build/lib/r_arm_description/__init__.py -> /home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages/r_arm_description
+[3.839s] byte-compiling /home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages/r_arm_description/__init__.py to __init__.cpython-312.pyc
+[3.839s] running install_data
+[3.840s] creating /home/user/ros2_ws/src/install/r_arm_description/share
+[3.841s] creating /home/user/ros2_ws/src/install/r_arm_description/share/ament_index
+[3.841s] creating /home/user/ros2_ws/src/install/r_arm_description/share/ament_index/resource_index
+[3.841s] creating /home/user/ros2_ws/src/install/r_arm_description/share/ament_index/resource_index/packages
+[3.842s] copying resource/r_arm_description -> /home/user/ros2_ws/src/install/r_arm_description/share/ament_index/resource_index/packages
+[3.843s] creating /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description
+[3.883s] copying package.xml -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description
+[3.884s] creating /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/launch
+[3.884s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/launch
+[3.885s] copying launch/display.launch.py -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/launch
+[3.885s] creating /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/urdf
+[3.886s] copying urdf/r_arm.ros2control -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/urdf
+[3.894s] copying urdf/r_arm.xacro -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/urdf
+[3.894s] copying urdf/r_arm.gazebo -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/urdf
+[3.897s] copying urdf/materials.xacro -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/urdf
+[3.899s] creating /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/meshes
+[3.899s] copying meshes/link1_1.stl -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/meshes
+[3.902s] copying meshes/base_link.stl -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/meshes
+[3.903s] copying meshes/link2_1.stl -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/meshes
+[3.904s] creating /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/config
+[3.905s] copying config/display.rviz -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/config
+[3.906s] copying config/controller.yaml -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/config
+[3.909s] copying config/gazebo.rviz -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/config
+[3.923s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/src/install/r_arm_description/share/r_arm_description/config
+[3.924s] running install_egg_info
+[4.081s] Copying ../build/r_arm_description/r_arm_description.egg-info to /home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages/r_arm_description-0.0.0-py3.12.egg-info
+[4.083s] running install_scripts
+[5.002s] writing list of installed files to '/home/user/ros2_ws/src/build/r_arm_description/install.log'
+[5.148s] Invoked command in '/home/user/ros2_ws/src/r_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/r_arm_description build --build-base /home/user/ros2_ws/src/build/r_arm_description/build install --record /home/user/ros2_ws/src/build/r_arm_description/install.log --single-version-externally-managed install_data

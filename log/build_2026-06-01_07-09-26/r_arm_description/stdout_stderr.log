@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing r_arm_description.egg-info/PKG-INFO
+writing dependency_links to r_arm_description.egg-info/dependency_links.txt
+writing requirements to r_arm_description.egg-info/requires.txt
+writing top-level names to r_arm_description.egg-info/top_level.txt
+reading manifest file 'r_arm_description.egg-info/SOURCES.txt'
+writing manifest file 'r_arm_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r-arm-description.egg-link (link to .)
+
+Installed /home/user/ros2_ws/build/r_arm_description
+running symlink_data
+symbolically linking /home/user/ros2_ws/build/r_arm_description/resource/r_arm_description -> /home/user/ros2_ws/install/r_arm_description/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/build/r_arm_description/package.xml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description
+symbolically linking /home/user/ros2_ws/build/r_arm_description/launch/gazebo.launch.py -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/launch
+symbolically linking /home/user/ros2_ws/build/r_arm_description/launch/display.launch.py -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/launch
+symbolically linking /home/user/ros2_ws/build/r_arm_description/urdf/r_arm.ros2control -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+symbolically linking /home/user/ros2_ws/build/r_arm_description/urdf/r_arm.xacro -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+symbolically linking /home/user/ros2_ws/build/r_arm_description/urdf/r_arm.gazebo -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+symbolically linking /home/user/ros2_ws/build/r_arm_description/urdf/materials.xacro -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/urdf
+symbolically linking /home/user/ros2_ws/build/r_arm_description/meshes/link1_1.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+symbolically linking /home/user/ros2_ws/build/r_arm_description/meshes/base_link.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+symbolically linking /home/user/ros2_ws/build/r_arm_description/meshes/link2_1.stl -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/meshes
+symbolically linking /home/user/ros2_ws/build/r_arm_description/config/display.rviz -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+symbolically linking /home/user/ros2_ws/build/r_arm_description/config/controller.yaml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+symbolically linking /home/user/ros2_ws/build/r_arm_description/config/gazebo.rviz -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config
+symbolically linking /home/user/ros2_ws/build/r_arm_description/config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/r_arm_description/share/r_arm_description/config

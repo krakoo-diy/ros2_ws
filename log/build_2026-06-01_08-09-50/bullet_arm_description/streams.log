@@ -1,0 +1,39 @@
+[3.636s] Invoking command in '/home/user/ros2_ws/build/bullet_arm_description': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/bullet_arm_description/build
+[5.054s] running develop
+[6.058s] Removing /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet-arm-description.egg-link (link to .)
+[6.227s] Invoked command in '/home/user/ros2_ws/build/bullet_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/bullet_arm_description/build
+[6.230s] Invoking command in '/home/user/ros2_ws/src/bullet_arm_description': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_arm_description build --build-base /home/user/ros2_ws/build/bullet_arm_description/build install --record /home/user/ros2_ws/build/bullet_arm_description/install.log --single-version-externally-managed install_data --force
+[7.326s] running egg_info
+[7.360s] writing ../../build/bullet_arm_description/bullet_arm_description.egg-info/PKG-INFO
+[7.361s] writing dependency_links to ../../build/bullet_arm_description/bullet_arm_description.egg-info/dependency_links.txt
+[7.361s] writing requirements to ../../build/bullet_arm_description/bullet_arm_description.egg-info/requires.txt
+[7.361s] writing top-level names to ../../build/bullet_arm_description/bullet_arm_description.egg-info/top_level.txt
+[7.542s] reading manifest file '../../build/bullet_arm_description/bullet_arm_description.egg-info/SOURCES.txt'
+[7.545s] writing manifest file '../../build/bullet_arm_description/bullet_arm_description.egg-info/SOURCES.txt'
+[7.545s] running build
+[7.545s] running build_py
+[7.545s] running install
+[7.557s] running install_lib
+[7.644s] creating /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description
+[7.644s] copying /home/user/ros2_ws/build/bullet_arm_description/build/lib/bullet_arm_description/__init__.py -> /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description
+[7.645s] byte-compiling /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description/__init__.py to __init__.cpython-312.pyc
+[7.645s] running install_data
+[7.645s] copying resource/bullet_arm_description -> /home/user/ros2_ws/install/bullet_arm_description/share/ament_index/resource_index/packages
+[7.646s] copying package.xml -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description
+[7.646s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/launch
+[7.646s] copying launch/display.launch.py -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/launch
+[7.646s] copying urdf/bullet_arm.gazebo -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/urdf
+[7.646s] copying urdf/bullet_arm.xacro -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/urdf
+[7.647s] copying urdf/materials.xacro -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/urdf
+[7.648s] copying urdf/bullet_arm.ros2control -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/urdf
+[7.648s] copying meshes/base_link.stl -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/meshes
+[7.648s] copying meshes/joint_1_1.stl -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/meshes
+[7.648s] copying meshes/joint_2_1.stl -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/meshes
+[7.648s] copying config/display.rviz -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/config
+[7.648s] copying config/gazebo.rviz -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/config
+[7.649s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/bullet_arm_description/share/bullet_arm_description/config
+[7.649s] running install_egg_info
+[7.675s] Copying ../../build/bullet_arm_description/bullet_arm_description.egg-info to /home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages/bullet_arm_description-0.0.0-py3.12.egg-info
+[7.676s] running install_scripts
+[7.878s] writing list of installed files to '/home/user/ros2_ws/build/bullet_arm_description/install.log'
+[7.910s] Invoked command in '/home/user/ros2_ws/src/bullet_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/bullet_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_arm_description build --build-base /home/user/ros2_ws/build/bullet_arm_description/build install --record /home/user/ros2_ws/build/bullet_arm_description/install.log --single-version-externally-managed install_data --force
