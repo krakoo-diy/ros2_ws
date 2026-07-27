@@ -1,0 +1,29 @@
+[0.048s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[0.601s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_r.dir/src/lidar_r.cpp.o[0m
+[15.133s] [01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:[m[K In member function '[01m[Kvoid LidarInspect::[01;32m[Klidar_calback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K':
+[15.133s] [01m[K/home/user/ros2_ws/src/rosbot_api/src/lidar_r.cpp:22:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Klong unsigned int[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.133s]    22 |     for (int i = mid - 10; [01;35m[Ki <= mid + 10[m[K; i++) {
+[15.133s]       |                            [01;35m[K~~^~~~~~~~~~~[m[K
+[44.262s] [100%] [32m[1mLinking CXX executable lidar_r[0m
+[45.968s] [100%] Built target lidar_r
+[46.097s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[46.191s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
+[46.364s] -- Install configuration: ""
+[46.365s] -- Installing: /home/user/ros2_ws/install/rosbot_api/lib/rosbot_api/lidar_r
+[46.384s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/rosbot_api/lib/rosbot_api/lidar_r" to ""
+[46.385s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/package_run_dependencies/rosbot_api
+[46.385s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/parent_prefix_path/rosbot_api
+[46.386s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.sh
+[46.387s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.dsv
+[46.387s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.sh
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.dsv
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.bash
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.sh
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.zsh
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.dsv
+[46.388s] -- Installing: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.dsv
+[46.388s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/packages/rosbot_api
+[46.391s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig.cmake
+[46.392s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig-version.cmake
+[46.392s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.xml
+[46.449s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api

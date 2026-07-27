@@ -16,11 +16,18 @@ public:
 
 private:
   void lidar_calback(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
-    for (int i = 0; i < 640; i++) {
-      RCLCPP_INFO(get_logger(), "Angle index: %d Distance: %f", i,
-                  msg->ranges[i]);
+    auto mid = (msg->ranges.size()) / 2;
+    auto min = msg->ranges[mid - 50];
+    int index = 0;
+    for (int i = mid - 10; i <= mid + 10; i++) {
+      if (msg->ranges[i] < min) {
+        min = msg->ranges[i];
+        index = i;
+      }
     }
+    RCLCPP_INFO(get_logger(), "Index: %d Minimal distance: %f", index, min);
   }
+
   rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr
       lidar_subscriber_;
 };
