@@ -2,7 +2,7 @@
 <robot name="rosbot_mk3" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find rosbot_mk3_description)/urdf/materials.xacro" />
-<!--<xacro:include filename="$(find rosbot_mk3_description)/urdf/rosbot_mk3.ros2control" />-->
+<xacro:include filename="$(find rosbot_mk3_description)/urdf/rosbot_mk3.ros2control" />
 <xacro:include filename="$(find rosbot_mk3_description)/urdf/rosbot_mk3.gazebo" />
 <link name="base_link">
   <inertial>
@@ -134,28 +134,5 @@
   <parent link="base_link"/>
   <child link="camera_1"/>
 </joint>
-
-
-<!-- ROS2_Control -->
-
-<ros2_control name="GazeboSystem" type="system">
-    <hardware>
-        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-    </hardware>
-    <joint name = "left_wheel_joint">
-        <command_interface name="velocity"/>
-        <state_interface name="velocity"/>
-        <state_interface name="position"/>
-    </joint>
-    <joint name = "right_wheel_joint">
-        <command_interface name ="velocity"/>
-        <state_interface name="velocity"/>
-        <state_interface name="position"/>
-    </joint>
-</ros2_control>
-
-
-
-
 
 </robot>
