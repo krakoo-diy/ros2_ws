@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<robot name="oppressor_mk1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find oppressor_mk1_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find oppressor_mk1_description)/urdf/oppressor_mk1.ros2control" />
+<xacro:include filename="$(find oppressor_mk1_description)/urdf/oppressor_mk1.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 -0.0015716757620126503 0.05317150272860374" rpy="0 0 0"/>
+    <mass value="29.488525000000006"/>
+    <inertia ixx="0.298816" iyy="0.102473" izz="0.381093" ixy="-0.0" iyz="0.001707" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_1">
+  <inertial>
+    <origin xyz="-1.152316533667482e-17 -7.68211022444988e-18 0.010000000000000009" rpy="0 0 0"/>
+    <mass value="0.58085711480311"/>
+    <inertia ixx="0.00019" iyy="0.00019" izz="0.000342" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_1">
+  <inertial>
+    <origin xyz="2.261727773485138e-18 -0.0005000000000000837 0.0" rpy="0 0 0"/>
+    <mass value="0.0038533597391687806"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.174 -0.09" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.174 -0.09" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk1_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 5" type="fixed">
+  <origin xyz="0.0 0.0 0.12" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lidar_1"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="0.0 -0.174 0.09" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="camera_1"/>
+</joint>
+
+</robot>
