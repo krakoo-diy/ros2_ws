@@ -62,6 +62,21 @@ def generate_launch_description():
         parameters=[{'config_file': ros_gz_bridge_config}],
         output='screen'
     )
+
+
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster"],
+    )
+
+    diff_drive_spawner = Node(
+        package = "controller_manager",
+        executable="spawner",
+        arguments=["diff_drive_controller"],
+    )
+
+
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -72,8 +87,9 @@ def generate_launch_description():
 
     return LaunchDescription([
         gazebo,
-        spawn_robot,
-        ros_gz_bridge,
         robot_state_publisher,
+        ros_gz_bridge,
+        spawn_robot,
+        diff_drive_spawner,
         rviz_node,
     ])

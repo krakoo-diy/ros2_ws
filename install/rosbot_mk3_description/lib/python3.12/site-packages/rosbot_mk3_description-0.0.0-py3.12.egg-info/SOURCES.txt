@@ -7,6 +7,7 @@ setup.py
 ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/requires.txt
 ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/top_level.txt
 ../../build/rosbot_mk3_description/rosbot_mk3_description.egg-info/zip-safe
+config/controller_manager.yaml
 config/display.rviz
 config/gazebo.rviz
 config/ros_gz_bridge_gazebo.yaml
