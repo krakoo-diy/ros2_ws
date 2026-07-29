@@ -19,7 +19,7 @@ def generate_launch_description():
     robot_description_config = xacro.process_file(robot_description_file)
     robot_description = {'robot_description': robot_description_config.toxml()}
 
-    rviz_config_file = os.path.join(pkg_ros_gz_rbot, 'config', 'display.rviz')
+    rviz_config_file = os.path.join(pkg_ros_gz_rbot, 'config', 'gazebo.rviz')
 
 
    
