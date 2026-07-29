@@ -22,15 +22,15 @@
 
 <gazebo reference="right_wheel_1">
   <material>${body_color}</material>
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
 <gazebo reference="left_wheel_1">
   <material>${body_color}</material>
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
@@ -119,8 +119,6 @@
 </gazebo>
 
 
-<!--
-This block is dedicated to diff_driver plugin which is replaced by custom ros2_control controller
 <gazebo>
   <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
     <right_joint>right_wheel_joint</right_joint>
@@ -141,13 +139,12 @@ This block is dedicated to diff_driver plugin which is replaced by custom ros2_c
 
   </plugin>
 </gazebo>
--->
-<!-- Importing gz_ros2_control package to interface with ros2_control freamwork -->
-<gazebo>
-    <plugin filename = "gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-        <parameters>$(find rosbot_mk3_description)/config/controller_manager.yaml</parameters>
-    </plugin>
+
+
+<gazebo reference="base_link">
+
 </gazebo>
+
 
 
 </robot>
