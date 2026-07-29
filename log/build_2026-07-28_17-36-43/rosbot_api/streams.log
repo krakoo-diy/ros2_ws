@@ -1,0 +1,22 @@
+[1.388s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[1.702s] [100%] Built target lidar_r
+[1.784s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[1.891s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
+[1.914s] -- Install configuration: ""
+[1.916s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/lib/rosbot_api/lidar_r
+[1.917s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/package_run_dependencies/rosbot_api
+[1.917s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/parent_prefix_path/rosbot_api
+[1.918s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.sh
+[1.919s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.dsv
+[1.919s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.sh
+[1.920s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.dsv
+[1.920s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.bash
+[1.920s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.sh
+[1.921s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.zsh
+[1.984s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.dsv
+[1.984s] -- Installing: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.dsv
+[1.984s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/packages/rosbot_api
+[1.985s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig.cmake
+[1.985s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig-version.cmake
+[1.985s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.xml
+[1.991s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
