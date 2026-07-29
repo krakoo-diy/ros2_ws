@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<robot name="oppressor_mk3" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find oppressor_mk3_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find oppressor_mk3_description)/urdf/oppressor_mk3.ros2control" />
+<xacro:include filename="$(find oppressor_mk3_description)/urdf/oppressor_mk3.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.002219590589662816 0.0 0.05335026912928722" rpy="0 0 0"/>
+    <mass value="29.602080809877986"/>
+    <inertia ixx="0.102452" iyy="0.301272" izz="0.383127" ixy="-0.0" iyz="0.0" ixz="-0.002408"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_right_wheel_1">
+  <inertial>
+    <origin xyz="1.7541523789077473e-14 -0.017432802389248353 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.1834267958183611"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1 0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/front_right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1 0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/front_right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="back_right_wheel_1">
+  <inertial>
+    <origin xyz="1.7555401576885288e-14 -0.017432802389248353 0.0" rpy="0 0 0"/>
+    <mass value="0.1834267958183611"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1 0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/back_right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1 0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/back_right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="back_left_wheel_1">
+  <inertial>
+    <origin xyz="-3.497202527569243e-15 0.017432802389248395 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.1834267958183613"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1 -0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/back_left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1 -0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/back_left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_left_wheel_1">
+  <inertial>
+    <origin xyz="-3.5110803153770576e-15 0.01743280238924838 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.1834267958183613"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1 -0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/front_left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1 -0.095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/front_left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_1">
+  <inertial>
+    <origin xyz="0.00250000000000003 2.8271597168564585e-18 0.0" rpy="0 0 0"/>
+    <mass value="0.01233075116533994"/>
+    <inertia ixx="1e-06" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 -0.0 -0.09" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 -0.0 -0.09" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_1">
+  <inertial>
+    <origin xyz="-8.041698750169483e-18 -4.0208493750847415e-18 0.012500000000000011" rpy="0 0 0"/>
+    <mass value="0.5548838024402972"/>
+    <inertia ixx="0.000154" iyy="0.000154" izz="0.00025" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find oppressor_mk3_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="front_right_wheel_joint" type="continuous">
+  <origin xyz="0.1 -0.095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_right_wheel_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="back_right_wheel_joint" type="continuous">
+  <origin xyz="-0.1 -0.095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="back_right_wheel_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="back_left_wheel_joint" type="continuous">
+  <origin xyz="-0.1 0.095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="back_left_wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="front_left_wheel_joint" type="continuous">
+  <origin xyz="0.1 0.095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_left_wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="camera_joint" type="fixed">
+  <origin xyz="0.17 0.0 0.09" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="camera_1"/>
+</joint>
+
+<joint name="lidar_joint" type="fixed">
+  <origin xyz="0.0 0.0 0.12" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lidar_1"/>
+</joint>
+
+</robot>
