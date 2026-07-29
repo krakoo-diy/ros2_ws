@@ -141,10 +141,6 @@
 </gazebo>
 
 
-<gazebo reference="base_link">
-
-</gazebo>
-
 
 
 </robot>

@@ -1,0 +1,23 @@
+[5.954s] Invoking command in '/home/user/ros2_ws/src/oppressor_mk3_description': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data
+[7.832s] running egg_info
+[7.943s] writing ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/PKG-INFO
+[7.944s] writing dependency_links to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/dependency_links.txt
+[7.945s] writing requirements to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/requires.txt
+[7.945s] writing top-level names to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/top_level.txt
+[8.232s] reading manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[8.232s] writing manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[8.232s] running build
+[8.232s] running build_py
+[8.232s] running install
+[8.238s] running install_lib
+[8.346s] running install_data
+[8.346s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/launch
+[8.347s] copying urdf/oppressor_mk3.xacro -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[8.348s] copying urdf/oppressor_mk3.ros2control -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[8.348s] copying urdf/oppressor_mk3.gazebo -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[8.349s] running install_egg_info
+[8.532s] removing '/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info' (and everything under it)
+[8.532s] Copying ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info to /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info
+[8.532s] running install_scripts
+[9.232s] writing list of installed files to '/home/user/ros2_ws/build/oppressor_mk3_description/install.log'
+[9.816s] Invoked command in '/home/user/ros2_ws/src/oppressor_mk3_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data

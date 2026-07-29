@@ -1,0 +1,52 @@
+[3.953s] Invoking command in '/home/user/ros2_ws/src/oppressor_mk3_description': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data
+[5.063s] running egg_info
+[5.063s] creating ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info
+[5.156s] writing ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/PKG-INFO
+[5.157s] writing dependency_links to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/dependency_links.txt
+[5.158s] writing requirements to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/requires.txt
+[5.158s] writing top-level names to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/top_level.txt
+[5.159s] writing manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[5.259s] reading manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[5.262s] writing manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[5.264s] running build
+[5.265s] running build_py
+[5.343s] creating /home/user/ros2_ws/build/oppressor_mk3_description/build
+[5.344s] creating /home/user/ros2_ws/build/oppressor_mk3_description/build/lib
+[5.344s] creating /home/user/ros2_ws/build/oppressor_mk3_description/build/lib/oppressor_mk3_description
+[5.344s] copying oppressor_mk3_description/__init__.py -> /home/user/ros2_ws/build/oppressor_mk3_description/build/lib/oppressor_mk3_description
+[5.345s] running install
+[5.367s] running install_lib
+[5.447s] creating /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description
+[5.448s] copying /home/user/ros2_ws/build/oppressor_mk3_description/build/lib/oppressor_mk3_description/__init__.py -> /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description
+[5.448s] byte-compiling /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description/__init__.py to __init__.cpython-312.pyc
+[5.449s] running install_data
+[5.449s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/ament_index
+[5.449s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/ament_index/resource_index
+[5.450s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/ament_index/resource_index/packages
+[5.450s] copying resource/oppressor_mk3_description -> /home/user/ros2_ws/install/oppressor_mk3_description/share/ament_index/resource_index/packages
+[5.450s] copying package.xml -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description
+[5.450s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/launch
+[5.450s] copying launch/gazebo.launch.py -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/launch
+[5.451s] copying launch/display.launch.py -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/launch
+[5.451s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[5.451s] copying urdf/oppressor_mk3.xacro -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[5.451s] copying urdf/oppressor_mk3.ros2control -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[5.452s] copying urdf/materials.xacro -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[5.452s] copying urdf/oppressor_mk3.gazebo -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/urdf
+[5.452s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.453s] copying meshes/camera_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.453s] copying meshes/back_left_wheel_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.454s] copying meshes/front_right_wheel_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.454s] copying meshes/base_link.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.454s] copying meshes/back_right_wheel_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.454s] copying meshes/front_left_wheel_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.455s] copying meshes/lidar_1.stl -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/meshes
+[5.455s] creating /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config
+[5.455s] copying config/display.rviz -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config
+[5.456s] copying config/gazebo.rviz -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config
+[5.456s] copying config/ros_gz_bridge_gazebo.yaml -> /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config
+[5.456s] running install_egg_info
+[5.550s] Copying ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info to /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info
+[5.551s] running install_scripts
+[6.044s] writing list of installed files to '/home/user/ros2_ws/build/oppressor_mk3_description/install.log'
+[6.176s] Invoked command in '/home/user/ros2_ws/src/oppressor_mk3_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data

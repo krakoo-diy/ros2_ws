@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (ARM_MK1_description) JobQueued: {'identifier': 'ARM_MK1_description', 'dependencies': OrderedDict()}
+[0.000665] (bullet_arm_description) JobQueued: {'identifier': 'bullet_arm_description', 'dependencies': OrderedDict()}
+[0.000805] (oppressor_mk1_description) JobQueued: {'identifier': 'oppressor_mk1_description', 'dependencies': OrderedDict()}
+[0.000854] (oppressor_mk3_description) JobQueued: {'identifier': 'oppressor_mk3_description', 'dependencies': OrderedDict()}
+[0.001054] (qube_1_description) JobQueued: {'identifier': 'qube_1_description', 'dependencies': OrderedDict()}
+[0.001139] (r_arm_description) JobQueued: {'identifier': 'r_arm_description', 'dependencies': OrderedDict()}
+[0.001163] (robot_mk1_description) JobQueued: {'identifier': 'robot_mk1_description', 'dependencies': OrderedDict()}
+[0.001188] (robot_urdf_description) JobQueued: {'identifier': 'robot_urdf_description', 'dependencies': OrderedDict()}
+[0.001237] (rosbot_api) JobQueued: {'identifier': 'rosbot_api', 'dependencies': OrderedDict()}
+[0.001260] (rosbot_description) JobQueued: {'identifier': 'rosbot_description', 'dependencies': OrderedDict()}
+[0.001359] (rosbot_mk3_description) JobQueued: {'identifier': 'rosbot_mk3_description', 'dependencies': OrderedDict()}
+[0.001384] (ARM_MK1_description) JobStarted: {'identifier': 'ARM_MK1_description'}
+[0.011514] (bullet_arm_description) JobStarted: {'identifier': 'bullet_arm_description'}
+[0.019089] (oppressor_mk1_description) JobStarted: {'identifier': 'oppressor_mk1_description'}
+[0.025202] (oppressor_mk3_description) JobStarted: {'identifier': 'oppressor_mk3_description'}
+[0.029634] (oppressor_mk3_description) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 40, in build\n    additional_hooks = create_environment_hook(\n                       ^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 480, in create_environment_hook\n    raise RuntimeError(\nRuntimeError: Could not find a primary shell extension for creating an environment hook\n'}
+[0.031084] (oppressor_mk3_description) JobEnded: {'identifier': 'oppressor_mk3_description', 'rc': 1}
+[0.032792] (qube_1_description) JobStarted: {'identifier': 'qube_1_description'}
+[0.037414] (r_arm_description) JobStarted: {'identifier': 'r_arm_description'}
+[0.042677] (robot_mk1_description) JobStarted: {'identifier': 'robot_mk1_description'}
+[0.049012] (robot_urdf_description) JobStarted: {'identifier': 'robot_urdf_description'}
+[0.055943] (ARM_MK1_description) JobEnded: {'identifier': 'ARM_MK1_description', 'rc': 'SIGINT'}
+[0.057133] (bullet_arm_description) JobEnded: {'identifier': 'bullet_arm_description', 'rc': 'SIGINT'}
+[0.057650] (oppressor_mk1_description) JobEnded: {'identifier': 'oppressor_mk1_description', 'rc': 'SIGINT'}
+[0.057977] (qube_1_description) JobEnded: {'identifier': 'qube_1_description', 'rc': 'SIGINT'}
+[0.058284] (r_arm_description) JobEnded: {'identifier': 'r_arm_description', 'rc': 'SIGINT'}
+[0.058582] (robot_mk1_description) JobEnded: {'identifier': 'robot_mk1_description', 'rc': 'SIGINT'}
+[0.059142] (robot_urdf_description) JobEnded: {'identifier': 'robot_urdf_description', 'rc': 'SIGINT'}
+[0.059914] (rosbot_api) JobSkipped: {'identifier': 'rosbot_api'}
+[0.059977] (rosbot_description) JobSkipped: {'identifier': 'rosbot_description'}
+[0.060003] (rosbot_mk3_description) JobSkipped: {'identifier': 'rosbot_mk3_description'}
+[0.060025] (-) EventReactorShutdown: {}

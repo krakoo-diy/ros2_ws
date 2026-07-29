@@ -1,0 +1,19 @@
+[14.893s] Invoking command in '/home/user/ros2_ws/src/ARM_MK1_description': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data
+[17.689s] running egg_info
+[17.800s] writing ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/PKG-INFO
+[17.805s] writing dependency_links to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/dependency_links.txt
+[17.805s] writing requirements to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/requires.txt
+[17.805s] writing top-level names to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/top_level.txt
+[18.110s] reading manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[18.111s] writing manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[18.112s] running build
+[18.112s] running build_py
+[18.112s] running install
+[18.200s] running install_lib
+[18.406s] running install_data
+[18.408s] running install_egg_info
+[18.592s] removing '/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description-0.0.0-py3.12.egg-info' (and everything under it)
+[18.602s] Copying ../../build/ARM_MK1_description/ARM_MK1_description.egg-info to /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description-0.0.0-py3.12.egg-info
+[18.605s] running install_scripts
+[19.711s] writing list of installed files to '/home/user/ros2_ws/build/ARM_MK1_description/install.log'
+[20.703s] Invoked command in '/home/user/ros2_ws/src/ARM_MK1_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data

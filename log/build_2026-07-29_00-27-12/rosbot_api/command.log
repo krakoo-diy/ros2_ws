@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/rosbot_api': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+Invoking command in '/home/user/ros2_ws/build/rosbot_api': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
+Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
