@@ -19,6 +19,10 @@
 /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config/controller.yaml
 /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config/gazebo.rviz
 /home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/config/ros_gz_bridge_gazebo.yaml
+/home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/worlds/custom_world.sdf
+/home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/models/custom_ground/model.sdf
+/home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/models/custom_ground/model.config
+/home/user/ros2_ws/install/oppressor_mk3_description/share/oppressor_mk3_description/models/custom_ground/materials/textures/ground.png
 /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info/PKG-INFO
 /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info/zip-safe
 /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info/top_level.txt

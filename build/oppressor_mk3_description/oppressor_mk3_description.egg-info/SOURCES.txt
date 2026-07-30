@@ -20,6 +20,9 @@ meshes/camera_1.stl
 meshes/front_left_wheel_1.stl
 meshes/front_right_wheel_1.stl
 meshes/lidar_1.stl
+models/custom_ground/model.config
+models/custom_ground/model.sdf
+models/custom_ground/materials/textures/ground.png
 oppressor_mk3_description/__init__.py
 resource/oppressor_mk3_description
 test/test_copyright.py
@@ -29,3 +32,4 @@ urdf/materials.xacro
 urdf/oppressor_mk3.gazebo
 urdf/oppressor_mk3.ros2control
 urdf/oppressor_mk3.xacro
+worlds/custom_world.sdf

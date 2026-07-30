@@ -1,7 +1,7 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, TimerAction, ExecuteProcess
+from launch.actions import IncludeLaunchDescription, TimerAction, ExecuteProcess, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 import xacro
@@ -20,6 +20,14 @@ def generate_launch_description():
     robot_description = {'robot_description': robot_description_config.toxml()}
 
     rviz_config_file = os.path.join(pkg_ros_gz_rbot, 'config', 'gazebo.rviz')
+
+    gz_model_path = os.path.join(pkg_ros_gz_rbot, 'models')
+
+
+    set_gz_resource_path = SetEnvironmentVariable(
+        name='GZ_SIM_RESOURCE_PATH',
+        value=gz_model_path + os.pathsep + os.environ.get('GZ_SIM_RESOURCE_PATH', '')
+    )
 
 
    
@@ -95,12 +103,14 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        set_gz_resource_path,
         robot_state_publisher,
         gazebo,
         spawn_robot,
         ros_gz_bridge,
         spawn_controllers,
-        rviz_node
+        rviz_node,
+ 
 
 
     ])
