@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/user/ros2_ws/build/oppressor_api
 
 # The main recursive "all" target.
 all: CMakeFiles/image_processing.dir/all
+all: CMakeFiles/controller.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/oppressor_api_uninstall.dir/clean
 clean: CMakeFiles/image_processing.dir/clean
+clean: CMakeFiles/controller.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/oppressor_api_uninstall.dir/clean:
 CMakeFiles/image_processing.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_processing.dir/build.make CMakeFiles/image_processing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_processing.dir/build.make CMakeFiles/image_processing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/ros2_ws/build/oppressor_api/CMakeFiles --progress-num=1,2 "Built target image_processing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/ros2_ws/build/oppressor_api/CMakeFiles --progress-num=4,5 "Built target image_processing"
 .PHONY : CMakeFiles/image_processing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ image_processing: CMakeFiles/image_processing.dir/rule
 CMakeFiles/image_processing.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_processing.dir/build.make CMakeFiles/image_processing.dir/clean
 .PHONY : CMakeFiles/image_processing.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/controller.dir
+
+# All Build rule for target.
+CMakeFiles/controller.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller.dir/build.make CMakeFiles/controller.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller.dir/build.make CMakeFiles/controller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/ros2_ws/build/oppressor_api/CMakeFiles --progress-num=1,2,3 "Built target controller"
+.PHONY : CMakeFiles/controller.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/controller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/oppressor_api/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/controller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/oppressor_api/CMakeFiles 0
+.PHONY : CMakeFiles/controller.dir/rule
+
+# Convenience name for target.
+controller: CMakeFiles/controller.dir/rule
+.PHONY : controller
+
+# clean rule for target.
+CMakeFiles/controller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller.dir/build.make CMakeFiles/controller.dir/clean
+.PHONY : CMakeFiles/controller.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

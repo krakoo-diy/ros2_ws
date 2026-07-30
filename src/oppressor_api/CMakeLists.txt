@@ -19,10 +19,17 @@ find_package(OpenCV REQUIRED)
 add_executable(image_processing src/image_processing.cpp)
 ament_target_dependencies(image_processing rclcpp std_msgs geometry_msgs cv_bridge image_transport OpenCV sensor_msgs)
 
+add_executable(controller src/controller.cpp src/pid.cpp)
+ament_target_dependencies(controller rclcpp std_msgs geometry_msgs)
+
+target_include_directories(controller PUBLIC include/)
+
+
 
 
 install(TARGETS 
 	image_processing
+	controller
 	DESTINATION lib/${PROJECT_NAME}/
 )
 

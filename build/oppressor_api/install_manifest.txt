@@ -1,4 +1,5 @@
 /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/image_processing
+/home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/controller
 /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/package_run_dependencies/oppressor_api
 /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/parent_prefix_path/oppressor_api
 /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.sh

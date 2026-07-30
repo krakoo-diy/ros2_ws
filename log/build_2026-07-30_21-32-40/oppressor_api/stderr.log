@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:26:35:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<std_msgs::msg::Float64_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct std_msgs::msg::Float64_<std::allocator<void> >[m[K' {aka '[01m[Kstruct std_msgs::msg::Float64_<std::allocator<void> >[m[K'} has no member named '[01m[Kmsg[m[K'
+   26 |     auto error_handler = m_error->[01;31m[Kmsg[m[K;
+      |                                   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
