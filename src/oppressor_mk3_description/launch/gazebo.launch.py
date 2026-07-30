@@ -56,7 +56,7 @@ def generate_launch_description():
                 "-name", "oppressor_mk3",
                 "-allow_renaming", "false",  # prevents "_1" duplicate
                 "-x", "0.0",
-                "-y", "0.0",
+                "-y", "-2.5",
                 "-z", "0.32",
                 "-Y", "0.0"
             ],

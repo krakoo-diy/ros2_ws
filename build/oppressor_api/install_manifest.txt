@@ -1,0 +1,16 @@
+/home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/image_processing
+/home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/package_run_dependencies/oppressor_api
+/home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/parent_prefix_path/oppressor_api
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.sh
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.dsv
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.bash
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.sh
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.zsh
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.dsv
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.dsv
+/home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/packages/oppressor_api
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig.cmake
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig-version.cmake
+/home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.xml

@@ -4,7 +4,6 @@ from glob import glob
 
 package_name = 'oppressor_mk3_description'
 
-# Recursively collect all files under models/, preserving directory structure
 def package_files(directory):
     paths = []
     for (path, directories, filenames) in os.walk(directory):

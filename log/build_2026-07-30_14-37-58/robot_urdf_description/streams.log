@@ -1,0 +1,19 @@
+[2.923s] Invoking command in '/home/user/ros2_ws/src/robot_urdf_description': PYTHONPATH=/home/user/ros2_ws/build/robot_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_urdf_description build --build-base /home/user/ros2_ws/build/robot_urdf_description/build install --record /home/user/ros2_ws/build/robot_urdf_description/install.log --single-version-externally-managed install_data
+[3.888s] running egg_info
+[3.925s] writing ../../build/robot_urdf_description/robot_urdf_description.egg-info/PKG-INFO
+[3.925s] writing dependency_links to ../../build/robot_urdf_description/robot_urdf_description.egg-info/dependency_links.txt
+[3.925s] writing requirements to ../../build/robot_urdf_description/robot_urdf_description.egg-info/requires.txt
+[3.926s] writing top-level names to ../../build/robot_urdf_description/robot_urdf_description.egg-info/top_level.txt
+[4.097s] reading manifest file '../../build/robot_urdf_description/robot_urdf_description.egg-info/SOURCES.txt'
+[4.100s] writing manifest file '../../build/robot_urdf_description/robot_urdf_description.egg-info/SOURCES.txt'
+[4.100s] running build
+[4.101s] running build_py
+[4.102s] running install
+[4.114s] running install_lib
+[4.206s] running install_data
+[4.209s] running install_egg_info
+[4.321s] removing '/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages/robot_urdf_description-0.0.0-py3.12.egg-info' (and everything under it)
+[4.321s] Copying ../../build/robot_urdf_description/robot_urdf_description.egg-info to /home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages/robot_urdf_description-0.0.0-py3.12.egg-info
+[4.322s] running install_scripts
+[4.807s] writing list of installed files to '/home/user/ros2_ws/build/robot_urdf_description/install.log'
+[4.924s] Invoked command in '/home/user/ros2_ws/src/robot_urdf_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_urdf_description build --build-base /home/user/ros2_ws/build/robot_urdf_description/build install --record /home/user/ros2_ws/build/robot_urdf_description/install.log --single-version-externally-managed install_data
