@@ -1,0 +1,9 @@
+[ 40%] Built target image_processing
+[ 60%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:35:20:[m[K [01;31m[Kerror: [m[K'[01m[Kpid_[m[K' is not a member of '[01m[KPIDController[m[K'
+   35 |     PIDController::[01;31m[Kpid_[m[K(kp_, ki_, kd_);
+      |                    [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

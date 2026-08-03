@@ -19,10 +19,21 @@ public:
         "/error", 10, [this](std_msgs::msg::Float64::SharedPtr m_error) {
           callback(m_error);
         });
+    declare_parameter<float>("Kp", 0.005);
+    declare_parameter<float>("Ki", 0.0);
+    declare_parameter<float>("Kd", 0.001);
   }
 
 private:
   void callback(std_msgs::msg::Float64::SharedPtr m_error) {
+    float kp_;
+    float ki_;
+    float kd_;
+    get_parameter("Kp", kp_);
+    get_parameter("ki", ki_);
+    get_parameter("kd", kd_);
+    PIDController pid(kp_, ki_, kd_);
+    // PIDController::PIDController(kp_, ki_, kd_);
     auto error_handler = m_error->data;
 
     rclcpp::Time current_time = this->now();
