@@ -80,7 +80,7 @@ private:
 
       auto msg = std_msgs::msg::Float64();
       msg.data = error;
-      RCLCPP_INFO(get_logger(), "Error value in pixels: %f", msg.data);
+      // RCLCPP_INFO(get_logger(), "Error value in pixels: %f", msg.data);
       error_publisher_->publish(msg);
     }
   }

@@ -102,6 +102,18 @@ def generate_launch_description():
         output='screen'
     )
 
+    image_processing = ExecuteProcess(
+        cmd=['ros2', 'run', 'oppressor_api', 'image_processing'],
+        output='screen',
+        shell=True
+    )
+    camera_viewer = ExecuteProcess(
+        cmd = ['ros2', 'run', 'rqt_image_view', 'rqt_image_view'],
+        output = 'screen',
+        shell = True
+    )
+
+
     return LaunchDescription([
         set_gz_resource_path,
         robot_state_publisher,
@@ -110,7 +122,8 @@ def generate_launch_description():
         ros_gz_bridge,
         spawn_controllers,
         rviz_node,
- 
+        image_processing,
+        camera_viewer
 
 
     ])
