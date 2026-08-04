@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000293] (-) JobUnselected: {'identifier': 'ARM_MK1_description'}
+[0.000555] (-) JobUnselected: {'identifier': 'bullet_arm_description'}
+[0.000805] (-) JobUnselected: {'identifier': 'oppressor_mk1_description'}
+[0.000977] (-) JobUnselected: {'identifier': 'oppressor_mk3_description'}
+[0.001027] (-) JobUnselected: {'identifier': 'qube_1_description'}
+[0.001070] (-) JobUnselected: {'identifier': 'r_arm_description'}
+[0.001204] (-) JobUnselected: {'identifier': 'robot_mk1_description'}
+[0.001270] (-) JobUnselected: {'identifier': 'robot_urdf_description'}
+[0.001334] (-) JobUnselected: {'identifier': 'rosbot_api'}
+[0.001416] (-) JobUnselected: {'identifier': 'rosbot_description'}
+[0.001440] (-) JobUnselected: {'identifier': 'rosbot_mk3_description'}
+[0.001469] (oppressor_api) JobQueued: {'identifier': 'oppressor_api', 'dependencies': OrderedDict()}
+[0.001513] (oppressor_api) JobStarted: {'identifier': 'oppressor_api'}
+[0.017631] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'cmake'}
+[0.018378] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'build'}
+[0.019124] (oppressor_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/oppressor_api', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/oppressor_api', 'env': OrderedDict({'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_MASTER_URI': 'http://1_xterm:11345', 'PKG_CONFIG_PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/simulations/ros2_sims_ws/install/cyclonedds/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'PWD': '/home/user/ros2_ws/build/oppressor_api', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/oppressor_api:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/simulations/ros2_sims_ws/install/cyclonedds:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/oppressor_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_xterm:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp/lib:/home/simulations/ros2_sims_ws/install/cyclonedds/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:', 'SLOT_SHELL_START_ID': '1027372', 'SLOT_PREFIX': '7832cb44-6e42-4403-9b26-03cf70b77280', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25160', 'SLOT_SYSTEMD': 'False', 'PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'jazzy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'jazzy', 'GAZEBO_VERBOSE': '0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}), 'shell': False}
+[0.099689] (-) TimerEvent: {}
+[0.115039] (oppressor_api) StdoutLine: {'line': b'[ 42%] Built target controller\n'}
+[0.123922] (oppressor_api) StdoutLine: {'line': b'[ 71%] Built target image_processing\n'}
+[0.127834] (oppressor_api) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o\x1b[0m\n'}
+[0.199804] (-) TimerEvent: {}
+[0.300128] (-) TimerEvent: {}
+[0.400418] (-) TimerEvent: {}
+[0.500754] (-) TimerEvent: {}
+[0.601071] (-) TimerEvent: {}
+[0.701352] (-) TimerEvent: {}
+[0.801659] (-) TimerEvent: {}
+[0.901979] (-) TimerEvent: {}
+[1.002284] (-) TimerEvent: {}
+[1.102605] (-) TimerEvent: {}
+[1.202888] (-) TimerEvent: {}
+[1.303175] (-) TimerEvent: {}
+[1.403455] (-) TimerEvent: {}
+[1.503789] (-) TimerEvent: {}
+[1.604142] (-) TimerEvent: {}
+[1.704446] (-) TimerEvent: {}
+[1.804797] (-) TimerEvent: {}
+[1.905116] (-) TimerEvent: {}
+[2.005426] (-) TimerEvent: {}
+[2.105721] (-) TimerEvent: {}
+[2.206019] (-) TimerEvent: {}
+[2.308761] (-) TimerEvent: {}
+[2.409085] (-) TimerEvent: {}
+[2.509579] (-) TimerEvent: {}
+[2.609898] (-) TimerEvent: {}
+[2.710174] (-) TimerEvent: {}
+[2.810450] (-) TimerEvent: {}
+[2.910742] (-) TimerEvent: {}
+[3.011020] (-) TimerEvent: {}
+[3.111408] (-) TimerEvent: {}
+[3.211690] (-) TimerEvent: {}
+[3.311982] (-) TimerEvent: {}
+[3.412300] (-) TimerEvent: {}
+[3.512598] (-) TimerEvent: {}
+[3.612926] (-) TimerEvent: {}
+[3.713223] (-) TimerEvent: {}
+[3.813514] (-) TimerEvent: {}
+[3.913837] (-) TimerEvent: {}
+[4.014160] (-) TimerEvent: {}
+[4.114481] (-) TimerEvent: {}
+[4.214810] (-) TimerEvent: {}
+[4.315118] (-) TimerEvent: {}
+[4.415487] (-) TimerEvent: {}
+[4.515862] (-) TimerEvent: {}
+[4.616198] (-) TimerEvent: {}
+[4.716497] (-) TimerEvent: {}
+[4.816843] (-) TimerEvent: {}
+[4.917206] (-) TimerEvent: {}
+[5.017535] (-) TimerEvent: {}
+[5.117812] (-) TimerEvent: {}
+[5.218092] (-) TimerEvent: {}
+[5.318368] (-) TimerEvent: {}
+[5.419634] (-) TimerEvent: {}
+[5.519933] (-) TimerEvent: {}
+[5.620220] (-) TimerEvent: {}
+[5.720511] (-) TimerEvent: {}
+[5.820817] (-) TimerEvent: {}
+[5.921120] (-) TimerEvent: {}
+[6.021412] (-) TimerEvent: {}
+[6.121784] (-) TimerEvent: {}
+[6.222113] (-) TimerEvent: {}
+[6.322415] (-) TimerEvent: {}
+[6.422694] (-) TimerEvent: {}
+[6.522968] (-) TimerEvent: {}
+[6.623250] (-) TimerEvent: {}
+[6.723530] (-) TimerEvent: {}
+[6.823797] (-) TimerEvent: {}
+[6.924081] (-) TimerEvent: {}
+[7.024435] (-) TimerEvent: {}
+[7.124789] (-) TimerEvent: {}
+[7.225133] (-) TimerEvent: {}
+[7.325507] (-) TimerEvent: {}
+[7.425858] (-) TimerEvent: {}
+[7.526255] (-) TimerEvent: {}
+[7.626569] (-) TimerEvent: {}
+[7.726885] (-) TimerEvent: {}
+[7.827195] (-) TimerEvent: {}
+[7.927521] (-) TimerEvent: {}
+[8.027877] (-) TimerEvent: {}
+[8.128160] (-) TimerEvent: {}
+[8.228481] (-) TimerEvent: {}
+[8.328844] (-) TimerEvent: {}
+[8.429118] (-) TimerEvent: {}
+[8.529437] (-) TimerEvent: {}
+[8.629779] (-) TimerEvent: {}
+[8.730068] (-) TimerEvent: {}
+[8.830367] (-) TimerEvent: {}
+[8.930646] (-) TimerEvent: {}
+[9.030937] (-) TimerEvent: {}
+[9.131234] (-) TimerEvent: {}
+[9.231502] (-) TimerEvent: {}
+[9.331793] (-) TimerEvent: {}
+[9.432125] (-) TimerEvent: {}
+[9.532419] (-) TimerEvent: {}
+[9.632752] (-) TimerEvent: {}
+[9.733047] (-) TimerEvent: {}
+[9.833335] (-) TimerEvent: {}
+[9.933611] (-) TimerEvent: {}
+[10.033943] (-) TimerEvent: {}
+[10.134234] (-) TimerEvent: {}
+[10.234572] (-) TimerEvent: {}
+[10.334855] (-) TimerEvent: {}
+[10.435142] (-) TimerEvent: {}
+[10.535439] (-) TimerEvent: {}
+[10.635743] (-) TimerEvent: {}
+[10.736121] (-) TimerEvent: {}
+[10.836474] (-) TimerEvent: {}
+[10.936849] (-) TimerEvent: {}
+[11.037146] (-) TimerEvent: {}
+[11.137472] (-) TimerEvent: {}
+[11.237777] (-) TimerEvent: {}
+[11.338587] (-) TimerEvent: {}
+[11.438889] (-) TimerEvent: {}
+[11.539183] (-) TimerEvent: {}
+[11.639486] (-) TimerEvent: {}
+[11.739789] (-) TimerEvent: {}
+[11.840084] (-) TimerEvent: {}
+[11.940372] (-) TimerEvent: {}
+[12.040624] (-) TimerEvent: {}
+[12.140897] (-) TimerEvent: {}
+[12.241195] (-) TimerEvent: {}
+[12.341529] (-) TimerEvent: {}
+[12.441852] (-) TimerEvent: {}
+[12.542194] (-) TimerEvent: {}
+[12.642524] (-) TimerEvent: {}
+[12.742864] (-) TimerEvent: {}
+[12.843180] (-) TimerEvent: {}
+[12.943542] (-) TimerEvent: {}
+[13.043870] (-) TimerEvent: {}
+[13.144197] (-) TimerEvent: {}
+[13.244567] (-) TimerEvent: {}
+[13.344927] (-) TimerEvent: {}
+[13.445784] (-) TimerEvent: {}
+[13.546082] (-) TimerEvent: {}
+[13.646430] (-) TimerEvent: {}
+[13.746723] (-) TimerEvent: {}
+[13.847028] (-) TimerEvent: {}
+[13.947377] (-) TimerEvent: {}
+[14.047718] (-) TimerEvent: {}
+[14.148032] (-) TimerEvent: {}
+[14.248321] (-) TimerEvent: {}
+[14.348635] (-) TimerEvent: {}
+[14.448961] (-) TimerEvent: {}
+[14.549243] (-) TimerEvent: {}
+[14.649540] (-) TimerEvent: {}
+[14.749843] (-) TimerEvent: {}
+[14.850146] (-) TimerEvent: {}
+[14.950485] (-) TimerEvent: {}
+[15.050827] (-) TimerEvent: {}
+[15.151167] (-) TimerEvent: {}
+[15.251538] (-) TimerEvent: {}
+[15.351847] (-) TimerEvent: {}
+[15.452095] (-) TimerEvent: {}
+[15.552392] (-) TimerEvent: {}
+[15.652663] (-) TimerEvent: {}
+[15.752958] (-) TimerEvent: {}
+[15.853328] (-) TimerEvent: {}
+[15.953619] (-) TimerEvent: {}
+[16.019960] (oppressor_api) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable complementary_filter\x1b[0m\n'}
+[16.053727] (-) TimerEvent: {}
+[16.154082] (-) TimerEvent: {}
+[16.254390] (-) TimerEvent: {}
+[16.354765] (-) TimerEvent: {}
+[16.455110] (-) TimerEvent: {}
+[16.555422] (-) TimerEvent: {}
+[16.563881] (oppressor_api) StdoutLine: {'line': b'[100%] Built target complementary_filter\n'}
+[16.577553] (oppressor_api) CommandEnded: {'returncode': 0}
+[16.578457] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'install'}
+[16.589485] (oppressor_api) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/oppressor_api'], 'cwd': '/home/user/ros2_ws/build/oppressor_api', 'env': OrderedDict({'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_MASTER_URI': 'http://1_xterm:11345', 'PKG_CONFIG_PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/simulations/ros2_sims_ws/install/cyclonedds/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'PWD': '/home/user/ros2_ws/build/oppressor_api', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/oppressor_api:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/simulations/ros2_sims_ws/install/cyclonedds:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/oppressor_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_xterm:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp/lib:/home/simulations/ros2_sims_ws/install/cyclonedds/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:', 'SLOT_SHELL_START_ID': '1027372', 'SLOT_PREFIX': '7832cb44-6e42-4403-9b26-03cf70b77280', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25160', 'SLOT_SYSTEMD': 'False', 'PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'jazzy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'jazzy', 'GAZEBO_VERBOSE': '0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}), 'shell': False}
+[16.598475] (oppressor_api) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.598707] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/image_processing\n'}
+[16.599115] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/controller\n'}
+[16.599383] (oppressor_api) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter\n'}
+[16.616690] (oppressor_api) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter" to ""\n'}
+[16.616934] (oppressor_api) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/package_run_dependencies/oppressor_api\n'}
+[16.617094] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/parent_prefix_path/oppressor_api\n'}
+[16.617237] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.sh\n'}
+[16.617600] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.dsv\n'}
+[16.617782] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.sh\n'}
+[16.617892] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.dsv\n'}
+[16.618038] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.bash\n'}
+[16.618182] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.sh\n'}
+[16.618291] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.zsh\n'}
+[16.618438] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.dsv\n'}
+[16.618574] (oppressor_api) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.dsv\n'}
+[16.618666] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/packages/oppressor_api\n'}
+[16.618771] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig.cmake\n'}
+[16.618862] (oppressor_api) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig-version.cmake\n'}
+[16.618946] (oppressor_api) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.xml\n'}
+[16.620200] (oppressor_api) CommandEnded: {'returncode': 0}
+[16.642417] (oppressor_api) JobEnded: {'identifier': 'oppressor_api', 'rc': 0}
+[16.643425] (-) EventReactorShutdown: {}

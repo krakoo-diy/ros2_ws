@@ -1,0 +1,22 @@
+[0.103s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[0.556s] [100%] Built target lidar_r
+[0.954s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/rosbot_api -- -j8 -l8
+[1.002s] Invoking command in '/home/user/ros2_ws/build/rosbot_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api
+[1.013s] -- Install configuration: ""
+[1.013s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/lib/rosbot_api/lidar_r
+[1.013s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/package_run_dependencies/rosbot_api
+[1.014s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/parent_prefix_path/rosbot_api
+[1.014s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.sh
+[1.014s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/ament_prefix_path.dsv
+[1.014s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.sh
+[1.014s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/environment/path.dsv
+[1.015s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.bash
+[1.015s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.sh
+[1.015s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.zsh
+[1.016s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/local_setup.dsv
+[1.016s] -- Installing: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.dsv
+[1.017s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/ament_index/resource_index/packages/rosbot_api
+[1.017s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig.cmake
+[1.018s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/cmake/rosbot_apiConfig-version.cmake
+[1.018s] -- Up-to-date: /home/user/ros2_ws/install/rosbot_api/share/rosbot_api/package.xml
+[1.018s] Invoked command in '/home/user/ros2_ws/build/rosbot_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/rosbot_api

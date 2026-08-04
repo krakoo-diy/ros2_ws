@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kimu_callback[m[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:27:43:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[K)[m[K' token
+   27 |               imu_data->angular_velocity.z[01;31m[K)[m[K;
+      |                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

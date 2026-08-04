@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000898] (-) JobUnselected: {'identifier': 'ARM_MK1_description'}
+[0.001225] (-) JobUnselected: {'identifier': 'bullet_arm_description'}
+[0.001393] (-) JobUnselected: {'identifier': 'oppressor_mk1_description'}
+[0.001609] (-) JobUnselected: {'identifier': 'oppressor_mk3_description'}
+[0.004605] (-) JobUnselected: {'identifier': 'qube_1_description'}
+[0.004744] (-) JobUnselected: {'identifier': 'r_arm_description'}
+[0.004808] (-) JobUnselected: {'identifier': 'robot_mk1_description'}
+[0.004850] (-) JobUnselected: {'identifier': 'robot_urdf_description'}
+[0.004917] (-) JobUnselected: {'identifier': 'rosbot_api'}
+[0.005019] (-) JobUnselected: {'identifier': 'rosbot_description'}
+[0.005078] (-) JobUnselected: {'identifier': 'rosbot_mk3_description'}
+[0.005123] (oppressor_api) JobQueued: {'identifier': 'oppressor_api', 'dependencies': OrderedDict()}
+[0.005173] (oppressor_api) JobStarted: {'identifier': 'oppressor_api'}
+[0.016111] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'cmake'}
+[0.016793] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'build'}
+[0.017390] (oppressor_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/oppressor_api', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/oppressor_api', 'env': OrderedDict({'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_MASTER_URI': 'http://1_xterm:11345', 'PKG_CONFIG_PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/simulations/ros2_sims_ws/install/cyclonedds/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'PWD': '/home/user/ros2_ws/build/oppressor_api', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/oppressor_api:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/simulations/ros2_sims_ws/install/cyclonedds:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/oppressor_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_xterm:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp/lib:/home/simulations/ros2_sims_ws/install/cyclonedds/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:', 'SLOT_SHELL_START_ID': '1027372', 'SLOT_PREFIX': '7832cb44-6e42-4403-9b26-03cf70b77280', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25160', 'SLOT_SYSTEMD': 'False', 'PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'jazzy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'jazzy', 'GAZEBO_VERBOSE': '0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}), 'shell': False}
+[0.064187] (oppressor_api) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099777] (-) TimerEvent: {}
+[0.200061] (-) TimerEvent: {}
+[0.300545] (-) TimerEvent: {}
+[0.343522] (oppressor_api) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.379464] (oppressor_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.391440] (oppressor_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.400652] (-) TimerEvent: {}
+[0.406487] (oppressor_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.424589] (oppressor_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500769] (-) TimerEvent: {}
+[0.507155] (oppressor_api) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.509328] (oppressor_api) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.590358] (oppressor_api) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600865] (-) TimerEvent: {}
+[0.677362] (oppressor_api) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.700974] (-) TimerEvent: {}
+[0.718588] (oppressor_api) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.749575] (oppressor_api) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.786071] (oppressor_api) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.799285] (oppressor_api) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[0.801053] (-) TimerEvent: {}
+[0.901364] (-) TimerEvent: {}
+[0.974730] (oppressor_api) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[1.001492] (-) TimerEvent: {}
+[1.007432] (oppressor_api) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.016846] (oppressor_api) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/oppressor_api\n'}
+[1.087148] (oppressor_api) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o\x1b[0m\n'}
+[1.089192] (oppressor_api) StdoutLine: {'line': b'[ 57%] Built target controller\n'}
+[1.095739] (oppressor_api) StdoutLine: {'line': b'[ 85%] Built target image_processing\n'}
+[1.101602] (-) TimerEvent: {}
+[1.201900] (-) TimerEvent: {}
+[1.302249] (-) TimerEvent: {}
+[1.402549] (-) TimerEvent: {}
+[1.502856] (-) TimerEvent: {}
+[1.603142] (-) TimerEvent: {}
+[1.703424] (-) TimerEvent: {}
+[1.803733] (-) TimerEvent: {}
+[1.904055] (-) TimerEvent: {}
+[2.004379] (-) TimerEvent: {}
+[2.104762] (-) TimerEvent: {}
+[2.205073] (-) TimerEvent: {}
+[2.305436] (-) TimerEvent: {}
+[2.405783] (-) TimerEvent: {}
+[2.506079] (-) TimerEvent: {}
+[2.606426] (-) TimerEvent: {}
+[2.706729] (-) TimerEvent: {}
+[2.807027] (-) TimerEvent: {}
+[2.907389] (-) TimerEvent: {}
+[3.007744] (-) TimerEvent: {}
+[3.107990] (-) TimerEvent: {}
+[3.208342] (-) TimerEvent: {}
+[3.308696] (-) TimerEvent: {}
+[3.408997] (-) TimerEvent: {}
+[3.509343] (-) TimerEvent: {}
+[3.609729] (-) TimerEvent: {}
+[3.710061] (-) TimerEvent: {}
+[3.810398] (-) TimerEvent: {}
+[3.910708] (-) TimerEvent: {}
+[4.011012] (-) TimerEvent: {}
+[4.097310] (oppressor_api) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.097674] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[4.097830] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[4.097985] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.098170] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid ComplementaryFilter::\x1b[01;32m\x1b[Kcallback\x1b[m\x1b[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K':\n"}
+[4.098352] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:30:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kconst class std::shared_ptr<const sensor_msgs::msg::Imu_<std::allocator<void> > >\x1b[m\x1b[K'} has no member named '\x1b[01m\x1b[Kangular_velocity\x1b[m\x1b[K'\n"}
+[4.098549] (oppressor_api) StderrLine: {'line': b'   30 |         RCLCPP_INFO(get_logger(), "Imu angular velocity z: %f, Odom yaw: %f", imu.\x1b[01;31m\x1b[Kangular_velocity\x1b[m\x1b[K.z, odom.pose.pose.orientation.z);\n'}
+[4.098718] (oppressor_api) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.098881] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:30:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kconst class std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >\x1b[m\x1b[K'} has no member named '\x1b[01m\x1b[Kpose\x1b[m\x1b[K'\n"}
+[4.099053] (oppressor_api) StderrLine: {'line': b'   30 |         RCLCPP_INFO(get_logger(), "Imu angular velocity z: %f, Odom yaw: %f", imu.angular_velocity.z, odom.\x1b[01;31m\x1b[Kpose\x1b[m\x1b[K.pose.orientation.z);\n'}
+[4.099260] (oppressor_api) StderrLine: {'line': b'      |                                                                                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.111134] (-) TimerEvent: {}
+[4.211438] (-) TimerEvent: {}
+[4.311750] (-) TimerEvent: {}
+[4.412319] (-) TimerEvent: {}
+[4.512608] (-) TimerEvent: {}
+[4.612948] (-) TimerEvent: {}
+[4.713223] (-) TimerEvent: {}
+[4.813522] (-) TimerEvent: {}
+[4.913809] (-) TimerEvent: {}
+[5.014128] (-) TimerEvent: {}
+[5.114424] (-) TimerEvent: {}
+[5.214747] (-) TimerEvent: {}
+[5.315061] (-) TimerEvent: {}
+[5.415367] (-) TimerEvent: {}
+[5.515719] (-) TimerEvent: {}
+[5.616079] (-) TimerEvent: {}
+[5.716396] (-) TimerEvent: {}
+[5.816731] (-) TimerEvent: {}
+[5.917101] (-) TimerEvent: {}
+[6.017445] (-) TimerEvent: {}
+[6.117800] (-) TimerEvent: {}
+[6.218118] (-) TimerEvent: {}
+[6.318424] (-) TimerEvent: {}
+[6.418804] (-) TimerEvent: {}
+[6.519115] (-) TimerEvent: {}
+[6.619417] (-) TimerEvent: {}
+[6.719745] (-) TimerEvent: {}
+[6.820033] (-) TimerEvent: {}
+[6.920336] (-) TimerEvent: {}
+[7.020717] (-) TimerEvent: {}
+[7.121074] (-) TimerEvent: {}
+[7.221450] (-) TimerEvent: {}
+[7.321789] (-) TimerEvent: {}
+[7.422124] (-) TimerEvent: {}
+[7.522437] (-) TimerEvent: {}
+[7.622788] (-) TimerEvent: {}
+[7.723120] (-) TimerEvent: {}
+[7.823388] (-) TimerEvent: {}
+[7.923720] (-) TimerEvent: {}
+[8.024520] (-) TimerEvent: {}
+[8.124888] (-) TimerEvent: {}
+[8.225260] (-) TimerEvent: {}
+[8.252394] (oppressor_api) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1\n'}
+[8.252851] (oppressor_api) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2\n'}
+[8.253011] (oppressor_api) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.255783] (oppressor_api) CommandEnded: {'returncode': 2}
+[8.270240] (oppressor_api) JobEnded: {'identifier': 'oppressor_api', 'rc': 2}
+[8.280857] (-) EventReactorShutdown: {}

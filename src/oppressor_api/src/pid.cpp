@@ -1,4 +1,4 @@
-#include "pid.h"
+#include "oppressor_api/pid.h"
 
 PIDController::PIDController(double kp, double ki, double kd)
     : kp_(kp), ki_(ki), kd_(kd), integral_(0.0), previous_error_(0.0) {}

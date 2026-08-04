@@ -1,0 +1,4 @@
+[ 28%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pid.cpp.o[0m
+[ 57%] Built target image_processing
+[ 85%] Built target complementary_filter

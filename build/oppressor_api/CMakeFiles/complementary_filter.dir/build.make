@@ -69,30 +69,29 @@ include CMakeFiles/complementary_filter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/complementary_filter.dir/flags.make
 
-CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o: CMakeFiles/complementary_filter.dir/flags.make
-CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o: /home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp
-CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o: CMakeFiles/complementary_filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/ros2_ws/build/oppressor_api/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o -MF CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o.d -o CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o -c /home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp
+CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o: CMakeFiles/complementary_filter.dir/flags.make
+CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o: /home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp
+CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o: CMakeFiles/complementary_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/ros2_ws/build/oppressor_api/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o -MF CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o.d -o CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o -c /home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp
 
-CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp > CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.i
+CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp > CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.i
 
-CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp -o CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.s
+CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp -o CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.s
 
 # Object files for target complementary_filter
 complementary_filter_OBJECTS = \
-"CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o"
+"CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o"
 
 # External object files for target complementary_filter
 complementary_filter_EXTERNAL_OBJECTS =
 
-complementary_filter: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o
+complementary_filter: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o
 complementary_filter: CMakeFiles/complementary_filter.dir/build.make
-complementary_filter: /opt/ros/jazzy/lib/librclcpp.so
 complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -104,6 +103,20 @@ complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introsp
 complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_py.so
+complementary_filter: /opt/ros/jazzy/lib/libmessage_filters.so
+complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
+complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_c.so
+complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/librclcpp.so
 complementary_filter: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 complementary_filter: /opt/ros/jazzy/lib/librcl.so
 complementary_filter: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -123,6 +136,13 @@ complementary_filter: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c
 complementary_filter: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
 complementary_filter: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
 complementary_filter: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 complementary_filter: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 complementary_filter: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 complementary_filter: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -142,30 +162,12 @@ complementary_filter: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_
 complementary_filter: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
 complementary_filter: /opt/ros/jazzy/lib/libtracetools.so
 complementary_filter: /opt/ros/jazzy/lib/librcl_logging_interface.so
-complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
-complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so
-complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_c.so
-complementary_filter: /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_c.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-complementary_filter: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
-complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 complementary_filter: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -180,9 +182,9 @@ complementary_filter: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.s
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-complementary_filter: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+complementary_filter: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 complementary_filter: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 complementary_filter: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 complementary_filter: /opt/ros/jazzy/lib/librcpputils.so

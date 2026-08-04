@@ -7,7 +7,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/float64.hpp"
 
-#include "pid.h"
+#include "oppressor_api/pid.h"
 
 class controller : public rclcpp::Node {
 public:

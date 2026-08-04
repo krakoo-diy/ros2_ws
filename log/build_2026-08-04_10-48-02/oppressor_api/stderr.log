@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In lambda function:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:14:11:[m[K [01;31m[Kerror: [m[K'[01m[Kimu_callback[m[K' was not declared in this scope; did you mean '[01m[Kodom_callback[m[K'?
+   14 |           [01;31m[Kimu_callback[m[K(imu_data);
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+      |           [32m[Kodom_callback[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:6[m[K:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:30:83:[m[K [01;31m[Kerror: [m[K'[01m[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr[m[K' {aka '[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K'} has no member named '[01m[Kangular_velocity[m[K'
+   30 |         RCLCPP_INFO(get_logger(), "Imu angular velocity z: %f, Odom yaw: %f", imu.[01;31m[Kangular_velocity[m[K.z, odom.pose.pose.orientation.z);
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:30:108:[m[K [01;31m[Kerror: [m[K'[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr[m[K' {aka '[01m[Kconst class std::shared_ptr<const nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K'} has no member named '[01m[Kpose[m[K'
+   30 |         RCLCPP_INFO(get_logger(), "Imu angular velocity z: %f, Odom yaw: %f", imu.angular_velocity.z, odom.[01;31m[Kpose[m[K.pose.orientation.z);
+      |                                                                                                            [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

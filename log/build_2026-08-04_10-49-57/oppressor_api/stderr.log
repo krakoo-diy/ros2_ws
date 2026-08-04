@@ -1,0 +1,4 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kimu_callback[m[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:60:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kimu_data[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 |   void imu_callback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_data[m[K) const {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
