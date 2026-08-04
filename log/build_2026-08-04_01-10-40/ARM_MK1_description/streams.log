@@ -1,0 +1,19 @@
+[6.323s] Invoking command in '/home/user/ros2_ws/src/ARM_MK1_description': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data
+[8.136s] running egg_info
+[8.319s] writing ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/PKG-INFO
+[8.319s] writing dependency_links to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/dependency_links.txt
+[8.319s] writing requirements to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/requires.txt
+[8.320s] writing top-level names to ../../build/ARM_MK1_description/ARM_MK1_description.egg-info/top_level.txt
+[8.543s] reading manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[8.549s] writing manifest file '../../build/ARM_MK1_description/ARM_MK1_description.egg-info/SOURCES.txt'
+[8.549s] running build
+[8.620s] running build_py
+[8.621s] running install
+[8.631s] running install_lib
+[8.743s] running install_data
+[8.744s] running install_egg_info
+[8.929s] removing '/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description-0.0.0-py3.12.egg-info' (and everything under it)
+[8.930s] Copying ../../build/ARM_MK1_description/ARM_MK1_description.egg-info to /home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages/ARM_MK1_description-0.0.0-py3.12.egg-info
+[8.932s] running install_scripts
+[9.220s] error: [Errno 2] No such file or directory: '/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info/PKG-INFO'
+[10.039s] Invoked command in '/home/user/ros2_ws/src/ARM_MK1_description' returned '1': PYTHONPATH=/home/user/ros2_ws/build/ARM_MK1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ARM_MK1_description build --build-base /home/user/ros2_ws/build/ARM_MK1_description/build install --record /home/user/ros2_ws/build/ARM_MK1_description/install.log --single-version-externally-managed install_data

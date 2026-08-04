@@ -1,0 +1,29 @@
+[ 40%] Built target image_processing
+[ 60%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pid.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:[m[K In member function '[01m[Kvoid PIDController::[01;32m[KsetGains[m[K(float*, float*, float*)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:22:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   22 |   new_Kp = [01;31m[Kkp_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:23:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   23 |   new_Ki = [01;31m[Kki_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:24:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   24 |   new_Kd = [01;31m[Kkd_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/pid.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:37:39:[m[K [01;31m[Kerror: [m[K'[01m[Kkd[m[K' was not declared in this scope; did you mean '[01m[Kkd_[m[K'?
+   37 |     PIDController::setGains(kp_, ki_, [01;31m[Kkd[m[K);
+      |                                       [01;31m[K^~[m[K
+      |                                       [32m[Kkd_[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(OpenCV REQUIRED)
@@ -24,12 +25,14 @@ ament_target_dependencies(controller rclcpp std_msgs geometry_msgs)
 
 target_include_directories(controller PUBLIC include/)
 
-
+add_executable(complementary_filter src/complementary_filter.cpp)
+ament_target_dependencies(complementary_filter rclcpp sensor_msgs nav_msgs)
 
 
 install(TARGETS 
 	image_processing
 	controller
+	complementary_filter
 	DESTINATION lib/${PROJECT_NAME}/
 )
 

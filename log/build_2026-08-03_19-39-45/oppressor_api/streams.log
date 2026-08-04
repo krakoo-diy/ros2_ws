@@ -1,0 +1,19 @@
+[0.528s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.563s] [ 20%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[1.563s] [ 60%] Built target image_processing
+[9.981s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[9.981s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:29:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kfloat[m[K'
+[9.981s]    29 |     float kp_, [01;31m[Kfloat[m[K ki_, float kd_;
+[9.981s]       |                [01;31m[K^~~~~[m[K
+[9.987s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:31:25:[m[K [01;31m[Kerror: [m[K'[01m[Kki_[m[K' was not declared in this scope; did you mean '[01m[Kkp_[m[K'?
+[9.987s]    31 |     get_parameter("ki", [01;31m[Kki_[m[K);
+[9.987s]       |                         [01;31m[K^~~[m[K
+[9.988s]       |                         [32m[Kkp_[m[K
+[9.993s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:32:25:[m[K [01;31m[Kerror: [m[K'[01m[Kkd_[m[K' was not declared in this scope; did you mean '[01m[Kkp_[m[K'?
+[9.993s]    32 |     get_parameter("kd", [01;31m[Kkd_[m[K);
+[9.993s]       |                         [01;31m[K^~~[m[K
+[9.995s]       |                         [32m[Kkp_[m[K
+[14.321s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[14.321s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+[14.322s] gmake: *** [Makefile:146: all] Error 2
+[14.324s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

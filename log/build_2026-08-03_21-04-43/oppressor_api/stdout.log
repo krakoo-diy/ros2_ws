@@ -1,0 +1,3 @@
+[ 40%] Built target image_processing
+[ 60%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pid.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m

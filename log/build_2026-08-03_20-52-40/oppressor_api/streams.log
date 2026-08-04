@@ -1,0 +1,11 @@
+[0.542s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.569s] [ 20%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[1.569s] [ 60%] Built target image_processing
+[11.585s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[11.585s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:40:9:[m[K [01;31m[Kerror: [m[Kno match for call to '[01m[K(PIDController) (float&, float&, float&)[m[K'
+[11.586s]    40 |     [01;31m[Kpid_(kp_, ki_, kd_)[m[K;
+[11.586s]       |     [01;31m[K~~~~^~~~~~~~~~~~~~~[m[K
+[15.326s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[15.326s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+[15.326s] gmake: *** [Makefile:146: all] Error 2
+[15.328s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

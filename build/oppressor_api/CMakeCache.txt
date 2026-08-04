@@ -367,6 +367,9 @@ libstatistics_collector_DIR:PATH=/opt/ros/jazzy/share/libstatistics_collector/cm
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/jazzy/share/message_filters/cmake
 
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/jazzy/share/nav_msgs/cmake
+
 //Value Computed by CMake
 oppressor_api_BINARY_DIR:STATIC=/home/user/ros2_ws/build/oppressor_api
 

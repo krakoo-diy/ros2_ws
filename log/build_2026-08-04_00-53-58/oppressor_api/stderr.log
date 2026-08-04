@@ -1,0 +1,85 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:11:3:[m[K [01;31m[Kerror: [m[K'[01m[Kimu_subscription[m[K' does not name a type; did you mean '[01m[Krmw_subscription_t[m[K'?
+   11 |   [01;31m[Kimu_subscription[m[K = create_subscription<sensor_msgs::msg::Imu>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |   [32m[Krmw_subscription_t[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:13:79:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[K)[m[K' token
+   13 |       [this](sensor_msgs::msg::Imu::SharedPtr imu_data) { imu_callback(imu); }[01;31m[K)[m[K;
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:14:3:[m[K [01;31m[Kerror: [m[K'[01m[Kodom_subscriber_[m[K' does not name a type
+   14 |   [01;31m[Kodom_subscriber_[m[K = create_subscription<nav_msgs::msg::Odom::SharedPtr>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:18:8:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[K)[m[K' token
+   18 |       }[01;31m[K)[m[K;
+      |        [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:21:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of '[01m[Kimu_callback[m[K' with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   21 |   [01;31m[Kimu_callback[m[K(sensor_msgs::msg::Imu::SharedPtr imu_data) {
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:42:[m[K [01;31m[Kerror: [m[K'[01m[Kimu[m[K' is not a member of '[01m[Ksensor_msgs::msg[m[K'; did you mean '[01m[KImu[m[K'?
+   25 |   rclcpp::Subscription<sensor_msgs::msg::[01;31m[Kimu[m[K>::SharedPtr imu_subscriber_;
+      |                                          [01;31m[K^~~[m[K
+      |                                          [32m[KImu[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |   rclcpp::Subscription<sensor_msgs::msg::imu[01;31m[K>[m[K::SharedPtr imu_subscriber_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:48:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   25 |   rclcpp::Subscription<sensor_msgs::msg::imu>::[01;31m[KSharedPtr[m[K imu_subscriber_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:58:[m[K [01;31m[Kerror: [m[K'[01m[Kimu_subscriber_[m[K' does not name a type
+   25 |   rclcpp::Subscription<sensor_msgs::msg::imu>::SharedPtr [01;31m[Kimu_subscriber_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:6[m[K:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In member function '[01m[Kint ComplementaryFilter::[01;32m[Kimu_callback[m[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:23:26:[m[K [01;31m[Kerror: [m[K'[01m[Kusing sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr = class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K' {aka '[01m[Kclass std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K'} has no member named '[01m[Kangular_velocity[m[K'
+   23 |                 imu_data.[01;31m[Kangular_velocity[m[K.z);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:24:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   24 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/c++/13/bits/alloc_traits.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/ext/alloc_traits.h:34[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:39[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:2[m[K:
+/usr/include/c++/13/bits/stl_construct.h: In instantiation of '[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = ComplementaryFilter; _Args = {}][m[K[m[K':
+[01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from '[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = ComplementaryFilter; _Args = {}; allocator_type = std::allocator<void>][m[K[m[K'
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from '[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {}; _Tp = ComplementaryFilter; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K'
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from '[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = ComplementaryFilter; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K'
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from '[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = ComplementaryFilter; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K'
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from '[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = ComplementaryFilter][m[K[m[K'
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from '[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = ComplementaryFilter; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = ComplementaryFilter][m[K[m[K'
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:31:56:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function '[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K'
+  119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:9:7:[m[K [01;36m[Knote: [m[K'[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K' is implicitly deleted because the default definition would be ill-formed:
+    9 | class [01;36m[KComplementaryFilter[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:9:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::Node::Node()[m[K'
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K'
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K'
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K'
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

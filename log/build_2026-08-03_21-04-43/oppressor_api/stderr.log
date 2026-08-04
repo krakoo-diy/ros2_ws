@@ -1,0 +1,31 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:[m[K In member function '[01m[Kvoid PIDController::[01;32m[KsetGains[m[K(float*, float*, float*)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:22:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   22 |   new_Kp = [01;31m[Kkp_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:23:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   23 |   new_Ki = [01;31m[Kki_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:24:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kfloat*[m[K' in assignment
+   24 |   new_Kd = [01;31m[Kkd_[m[K;
+      |            [01;31m[K^~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kdouble[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/pid.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:37:29:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kfloat[m[K' to '[01m[Kfloat*[m[K'
+   37 |     PIDController::setGains([01;31m[Kkp_[m[K, ki_, kd_);
+      |                             [01;31m[K^~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kfloat[m[K
+In file included from [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:10[m[K:
+[01m[K/home/user/ros2_ws/src/oppressor_api/include/pid.h:7:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of '[01m[Kvoid PIDController::[01;32m[KsetGains[m[K(float*, float*, float*)[m[K'
+    7 |   void setGains([01;36m[Kfloat *new_Kp[m[K, float *new_Ki, float *new_Kd);
+      |                 [01;36m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

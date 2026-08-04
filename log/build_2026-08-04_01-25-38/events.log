@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.077805] (-) JobUnselected: {'identifier': 'ARM_MK1_description'}
+[0.078201] (-) JobUnselected: {'identifier': 'bullet_arm_description'}
+[0.079204] (-) JobUnselected: {'identifier': 'oppressor_mk1_description'}
+[0.079310] (-) JobUnselected: {'identifier': 'oppressor_mk3_description'}
+[0.079525] (-) JobUnselected: {'identifier': 'qube_1_description'}
+[0.081279] (-) JobUnselected: {'identifier': 'r_arm_description'}
+[0.081385] (-) JobUnselected: {'identifier': 'robot_mk1_description'}
+[0.082219] (-) JobUnselected: {'identifier': 'robot_urdf_description'}
+[0.082270] (-) JobUnselected: {'identifier': 'rosbot_api'}
+[0.082319] (-) JobUnselected: {'identifier': 'rosbot_description'}
+[0.082785] (-) JobUnselected: {'identifier': 'rosbot_mk3_description'}
+[0.083376] (oppressor_api) JobQueued: {'identifier': 'oppressor_api', 'dependencies': OrderedDict()}
+[0.083422] (oppressor_api) JobStarted: {'identifier': 'oppressor_api'}
+[0.099968] (-) TimerEvent: {}
+[0.193439] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'cmake'}
+[0.194982] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'build'}
+[0.196533] (oppressor_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/oppressor_api', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/oppressor_api', 'env': OrderedDict({'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'PKG_CONFIG_PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/simulations/ros2_sims_ws/install/cyclonedds/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'ROBOT_HOSTNAME': '', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'PWD': '/home/user/ros2_ws/build/oppressor_api', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/oppressor_api:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/simulations/ros2_sims_ws/install/cyclonedds:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/oppressor_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp/lib:/home/simulations/ros2_sims_ws/install/cyclonedds/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:', 'SLOT_SHELL_START_ID': '1027372', 'SLOT_PREFIX': 'db29afd4-0127-4d49-a0ea-8f0469d26fe6', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25300', 'SLOT_SYSTEMD': 'False', 'PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'jazzy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'jazzy', 'GAZEBO_VERBOSE': '0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}), 'shell': False}
+[0.200064] (-) TimerEvent: {}
+[0.300907] (-) TimerEvent: {}
+[0.401891] (-) TimerEvent: {}
+[0.577039] (-) TimerEvent: {}
+[0.677434] (-) TimerEvent: {}
+[0.777836] (-) TimerEvent: {}
+[0.878760] (-) TimerEvent: {}
+[0.979171] (-) TimerEvent: {}
+[1.077239] (oppressor_api) StdoutLine: {'line': b'[ 42%] Built target controller\n'}
+[1.079279] (-) TimerEvent: {}
+[1.083667] (oppressor_api) StdoutLine: {'line': b'[ 71%] Built target image_processing\n'}
+[1.093652] (oppressor_api) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o\x1b[0m\n'}
+[1.181851] (-) TimerEvent: {}
+[1.285235] (-) TimerEvent: {}
+[1.385615] (-) TimerEvent: {}
+[1.486108] (-) TimerEvent: {}
+[1.587233] (-) TimerEvent: {}
+[1.687664] (-) TimerEvent: {}
+[1.788054] (-) TimerEvent: {}
+[1.888450] (-) TimerEvent: {}
+[1.989262] (-) TimerEvent: {}
+[2.089881] (-) TimerEvent: {}
+[2.191292] (-) TimerEvent: {}
+[2.291678] (-) TimerEvent: {}
+[2.393114] (-) TimerEvent: {}
+[2.493506] (-) TimerEvent: {}
+[2.594549] (-) TimerEvent: {}
+[2.695012] (-) TimerEvent: {}
+[2.795416] (-) TimerEvent: {}
+[2.896448] (-) TimerEvent: {}
+[2.996796] (-) TimerEvent: {}
+[3.097227] (-) TimerEvent: {}
+[3.198985] (-) TimerEvent: {}
+[3.299286] (-) TimerEvent: {}
+[3.399632] (-) TimerEvent: {}
+[3.501527] (-) TimerEvent: {}
+[3.601908] (-) TimerEvent: {}
+[3.703385] (-) TimerEvent: {}
+[3.877046] (-) TimerEvent: {}
+[3.978655] (-) TimerEvent: {}
+[4.079716] (-) TimerEvent: {}
+[4.180112] (-) TimerEvent: {}
+[4.280686] (-) TimerEvent: {}
+[4.381117] (-) TimerEvent: {}
+[4.481469] (-) TimerEvent: {}
+[4.581763] (-) TimerEvent: {}
+[4.682113] (-) TimerEvent: {}
+[4.782980] (-) TimerEvent: {}
+[4.884770] (-) TimerEvent: {}
+[4.986236] (-) TimerEvent: {}
+[5.086657] (-) TimerEvent: {}
+[5.187070] (-) TimerEvent: {}
+[5.287696] (-) TimerEvent: {}
+[5.388081] (-) TimerEvent: {}
+[5.488463] (-) TimerEvent: {}
+[5.589211] (-) TimerEvent: {}
+[5.690132] (-) TimerEvent: {}
+[5.790604] (-) TimerEvent: {}
+[5.891073] (-) TimerEvent: {}
+[5.991472] (-) TimerEvent: {}
+[6.092504] (-) TimerEvent: {}
+[6.192906] (-) TimerEvent: {}
+[6.293319] (-) TimerEvent: {}
+[6.393930] (-) TimerEvent: {}
+[6.494989] (-) TimerEvent: {}
+[6.605062] (-) TimerEvent: {}
+[6.777028] (-) TimerEvent: {}
+[6.878973] (-) TimerEvent: {}
+[6.980070] (-) TimerEvent: {}
+[7.080716] (-) TimerEvent: {}
+[7.181794] (-) TimerEvent: {}
+[7.282911] (-) TimerEvent: {}
+[7.384023] (-) TimerEvent: {}
+[7.484415] (-) TimerEvent: {}
+[7.585357] (-) TimerEvent: {}
+[7.686482] (-) TimerEvent: {}
+[7.786913] (-) TimerEvent: {}
+[7.887365] (-) TimerEvent: {}
+[7.989381] (-) TimerEvent: {}
+[8.090464] (-) TimerEvent: {}
+[8.191381] (-) TimerEvent: {}
+[8.291809] (-) TimerEvent: {}
+[8.392256] (-) TimerEvent: {}
+[8.493703] (-) TimerEvent: {}
+[8.595305] (-) TimerEvent: {}
+[8.696237] (-) TimerEvent: {}
+[8.796636] (-) TimerEvent: {}
+[8.898695] (-) TimerEvent: {}
+[8.999710] (-) TimerEvent: {}
+[9.100818] (-) TimerEvent: {}
+[9.202067] (-) TimerEvent: {}
+[9.306664] (-) TimerEvent: {}
+[9.409094] (-) TimerEvent: {}
+[9.577120] (-) TimerEvent: {}
+[9.677674] (-) TimerEvent: {}
+[9.779941] (-) TimerEvent: {}
+[9.884531] (-) TimerEvent: {}
+[9.985580] (-) TimerEvent: {}
+[10.085952] (-) TimerEvent: {}
+[10.186331] (-) TimerEvent: {}
+[10.286693] (-) TimerEvent: {}
+[10.387867] (-) TimerEvent: {}
+[10.488894] (-) TimerEvent: {}
+[10.590339] (-) TimerEvent: {}
+[10.693228] (-) TimerEvent: {}
+[10.793578] (-) TimerEvent: {}
+[10.897687] (-) TimerEvent: {}
+[10.998077] (-) TimerEvent: {}
+[11.098431] (-) TimerEvent: {}
+[11.198737] (-) TimerEvent: {}
+[11.300218] (-) TimerEvent: {}
+[11.400606] (-) TimerEvent: {}
+[11.501000] (-) TimerEvent: {}
+[11.602071] (-) TimerEvent: {}
+[11.777044] (-) TimerEvent: {}
+[11.877413] (-) TimerEvent: {}
+[11.977815] (-) TimerEvent: {}
+[12.079838] (-) TimerEvent: {}
+[12.184493] (-) TimerEvent: {}
+[12.284975] (-) TimerEvent: {}
+[12.385478] (-) TimerEvent: {}
+[12.485827] (-) TimerEvent: {}
+[12.586169] (-) TimerEvent: {}
+[12.686499] (-) TimerEvent: {}
+[12.786816] (-) TimerEvent: {}
+[12.887172] (-) TimerEvent: {}
+[12.987691] (-) TimerEvent: {}
+[13.088083] (-) TimerEvent: {}
+[13.189333] (-) TimerEvent: {}
+[13.289714] (-) TimerEvent: {}
+[13.390343] (-) TimerEvent: {}
+[13.491354] (-) TimerEvent: {}
+[13.591750] (-) TimerEvent: {}
+[13.692374] (-) TimerEvent: {}
+[13.793586] (-) TimerEvent: {}
+[13.893982] (-) TimerEvent: {}
+[13.995101] (-) TimerEvent: {}
+[14.096086] (-) TimerEvent: {}
+[14.196973] (-) TimerEvent: {}
+[14.297749] (-) TimerEvent: {}
+[14.398858] (-) TimerEvent: {}
+[14.499190] (-) TimerEvent: {}
+[14.599575] (-) TimerEvent: {}
+[14.699971] (-) TimerEvent: {}
+[14.803880] (-) TimerEvent: {}
+[14.978049] (-) TimerEvent: {}
+[15.082122] (-) TimerEvent: {}
+[15.182752] (-) TimerEvent: {}
+[15.283059] (-) TimerEvent: {}
+[15.383861] (-) TimerEvent: {}
+[15.484771] (-) TimerEvent: {}
+[15.585223] (-) TimerEvent: {}
+[15.685606] (-) TimerEvent: {}
+[15.786331] (-) TimerEvent: {}
+[15.886687] (-) TimerEvent: {}
+[15.987195] (-) TimerEvent: {}
+[16.081452] (oppressor_api) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[16.081809] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[16.081979] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[16.082135] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:6\x1b[m\x1b[K:\n'}
+[16.082290] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid ComplementaryFilter::\x1b[01;32m\x1b[Kimu_callback\x1b[m\x1b[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K':\n"}
+[16.082454] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kconst sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >\x1b[m\x1b[K'} has no member named '\x1b[01m\x1b[Kangular_velocity\x1b[m\x1b[K'\n"}
+[16.082617] (oppressor_api) StderrLine: {'line': b'   25 |                 imu_data.\x1b[01;31m\x1b[Kangular_velocity\x1b[m\x1b[K.z);\n'}
+[16.082771] (oppressor_api) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.087270] (-) TimerEvent: {}
+[16.188055] (-) TimerEvent: {}
+[16.288416] (-) TimerEvent: {}
+[16.391437] (-) TimerEvent: {}
+[16.492727] (-) TimerEvent: {}
+[16.593634] (-) TimerEvent: {}
+[16.694046] (-) TimerEvent: {}
+[16.794619] (-) TimerEvent: {}
+[16.895955] (-) TimerEvent: {}
+[16.996310] (-) TimerEvent: {}
+[17.096679] (-) TimerEvent: {}
+[17.197129] (-) TimerEvent: {}
+[17.298438] (-) TimerEvent: {}
+[17.399533] (-) TimerEvent: {}
+[17.500477] (-) TimerEvent: {}
+[17.600827] (-) TimerEvent: {}
+[17.701746] (-) TimerEvent: {}
+[17.802115] (-) TimerEvent: {}
+[17.902510] (-) TimerEvent: {}
+[18.002938] (-) TimerEvent: {}
+[18.103486] (-) TimerEvent: {}
+[18.204158] (-) TimerEvent: {}
+[18.377246] (-) TimerEvent: {}
+[18.477605] (-) TimerEvent: {}
+[18.578891] (-) TimerEvent: {}
+[18.679267] (-) TimerEvent: {}
+[18.780157] (-) TimerEvent: {}
+[18.880582] (-) TimerEvent: {}
+[18.981021] (-) TimerEvent: {}
+[19.081686] (-) TimerEvent: {}
+[19.182050] (-) TimerEvent: {}
+[19.293023] (-) TimerEvent: {}
+[19.395168] (-) TimerEvent: {}
+[19.495508] (-) TimerEvent: {}
+[19.596055] (-) TimerEvent: {}
+[19.696443] (-) TimerEvent: {}
+[19.797172] (-) TimerEvent: {}
+[19.897575] (-) TimerEvent: {}
+[19.998005] (-) TimerEvent: {}
+[20.098408] (-) TimerEvent: {}
+[20.199527] (-) TimerEvent: {}
+[20.300964] (-) TimerEvent: {}
+[20.477024] (-) TimerEvent: {}
+[20.577489] (-) TimerEvent: {}
+[20.678695] (-) TimerEvent: {}
+[20.779072] (-) TimerEvent: {}
+[20.879431] (-) TimerEvent: {}
+[20.981198] (-) TimerEvent: {}
+[21.081560] (-) TimerEvent: {}
+[21.186506] (-) TimerEvent: {}
+[21.287522] (-) TimerEvent: {}
+[21.397065] (-) TimerEvent: {}
+[21.498640] (-) TimerEvent: {}
+[21.601526] (-) TimerEvent: {}
+[21.705133] (-) TimerEvent: {}
+[21.877055] (-) TimerEvent: {}
+[21.977540] (-) TimerEvent: {}
+[22.077832] (-) TimerEvent: {}
+[22.178197] (-) TimerEvent: {}
+[22.281017] (-) TimerEvent: {}
+[22.384480] (-) TimerEvent: {}
+[22.485759] (-) TimerEvent: {}
+[22.586448] (-) TimerEvent: {}
+[22.686790] (-) TimerEvent: {}
+[22.787539] (-) TimerEvent: {}
+[22.888287] (-) TimerEvent: {}
+[22.989173] (-) TimerEvent: {}
+[23.090095] (-) TimerEvent: {}
+[23.190820] (-) TimerEvent: {}
+[23.291494] (-) TimerEvent: {}
+[23.391886] (-) TimerEvent: {}
+[23.492253] (-) TimerEvent: {}
+[23.592560] (-) TimerEvent: {}
+[23.692932] (-) TimerEvent: {}
+[23.793342] (-) TimerEvent: {}
+[23.893711] (-) TimerEvent: {}
+[23.994078] (-) TimerEvent: {}
+[24.098678] (-) TimerEvent: {}
+[24.199015] (-) TimerEvent: {}
+[24.300144] (-) TimerEvent: {}
+[24.400494] (-) TimerEvent: {}
+[24.500854] (-) TimerEvent: {}
+[24.601205] (-) TimerEvent: {}
+[24.777756] (-) TimerEvent: {}
+[24.879073] (-) TimerEvent: {}
+[24.980666] (-) TimerEvent: {}
+[25.082382] (-) TimerEvent: {}
+[25.183506] (-) TimerEvent: {}
+[25.284817] (-) TimerEvent: {}
+[25.385998] (-) TimerEvent: {}
+[25.487974] (-) TimerEvent: {}
+[25.589401] (-) TimerEvent: {}
+[25.692517] (-) TimerEvent: {}
+[25.793882] (-) TimerEvent: {}
+[25.894190] (-) TimerEvent: {}
+[25.994582] (-) TimerEvent: {}
+[26.094937] (-) TimerEvent: {}
+[26.195289] (-) TimerEvent: {}
+[26.295706] (-) TimerEvent: {}
+[26.396154] (-) TimerEvent: {}
+[26.496517] (-) TimerEvent: {}
+[26.596901] (-) TimerEvent: {}
+[26.697877] (-) TimerEvent: {}
+[26.807544] (-) TimerEvent: {}
+[26.977154] (-) TimerEvent: {}
+[27.077533] (-) TimerEvent: {}
+[27.179158] (-) TimerEvent: {}
+[27.279552] (-) TimerEvent: {}
+[27.380563] (-) TimerEvent: {}
+[27.481224] (-) TimerEvent: {}
+[27.582427] (-) TimerEvent: {}
+[27.683246] (-) TimerEvent: {}
+[27.784740] (-) TimerEvent: {}
+[27.886003] (-) TimerEvent: {}
+[27.988301] (-) TimerEvent: {}
+[28.090019] (-) TimerEvent: {}
+[28.193313] (-) TimerEvent: {}
+[28.293678] (-) TimerEvent: {}
+[28.394098] (-) TimerEvent: {}
+[28.494531] (-) TimerEvent: {}
+[28.594920] (-) TimerEvent: {}
+[28.695533] (-) TimerEvent: {}
+[28.795919] (-) TimerEvent: {}
+[28.897304] (-) TimerEvent: {}
+[28.997709] (-) TimerEvent: {}
+[29.101022] (-) TimerEvent: {}
+[29.277072] (-) TimerEvent: {}
+[29.378152] (-) TimerEvent: {}
+[29.479898] (-) TimerEvent: {}
+[29.587495] (-) TimerEvent: {}
+[29.688021] (-) TimerEvent: {}
+[29.788398] (-) TimerEvent: {}
+[29.888818] (-) TimerEvent: {}
+[29.989296] (-) TimerEvent: {}
+[30.089800] (-) TimerEvent: {}
+[30.090651] (oppressor_api) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1\n'}
+[30.091521] (oppressor_api) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2\n'}
+[30.091761] (oppressor_api) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.096590] (oppressor_api) CommandEnded: {'returncode': 2}
+[30.190054] (-) TimerEvent: {}
+[30.192365] (oppressor_api) JobEnded: {'identifier': 'oppressor_api', 'rc': 2}
+[30.193780] (-) EventReactorShutdown: {}

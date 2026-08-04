@@ -1,0 +1,8 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:6[m[K:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kimu_callback[m[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:17:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   25 |                 [01;35m[K"Angular velocity:"[m[K, imu_data->angular_velocity.z);
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

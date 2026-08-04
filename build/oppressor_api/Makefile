@@ -223,6 +223,43 @@ controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller.dir/build.make CMakeFiles/controller.dir/build
 .PHONY : controller/fast
 
+#=============================================================================
+# Target rules for targets named complementary_filter
+
+# Build rule for target.
+complementary_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 complementary_filter
+.PHONY : complementary_filter
+
+# fast build rule for target.
+complementary_filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/complementary_filter.dir/build.make CMakeFiles/complementary_filter.dir/build
+.PHONY : complementary_filter/fast
+
+src/complementary_filter.o: src/complementary_filter.cpp.o
+.PHONY : src/complementary_filter.o
+
+# target to build an object file
+src/complementary_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/complementary_filter.dir/build.make CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o
+.PHONY : src/complementary_filter.cpp.o
+
+src/complementary_filter.i: src/complementary_filter.cpp.i
+.PHONY : src/complementary_filter.i
+
+# target to preprocess a source file
+src/complementary_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/complementary_filter.dir/build.make CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.i
+.PHONY : src/complementary_filter.cpp.i
+
+src/complementary_filter.s: src/complementary_filter.cpp.s
+.PHONY : src/complementary_filter.s
+
+# target to generate assembly for a file
+src/complementary_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/complementary_filter.dir/build.make CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.s
+.PHONY : src/complementary_filter.cpp.s
+
 src/controller.o: src/controller.cpp.o
 .PHONY : src/controller.o
 
@@ -310,8 +347,12 @@ help:
 	@echo "... test"
 	@echo "... oppressor_api_uninstall"
 	@echo "... uninstall"
+	@echo "... complementary_filter"
 	@echo "... controller"
 	@echo "... image_processing"
+	@echo "... src/complementary_filter.o"
+	@echo "... src/complementary_filter.i"
+	@echo "... src/complementary_filter.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"

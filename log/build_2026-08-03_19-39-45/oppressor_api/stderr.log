@@ -1,0 +1,15 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:29:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kfloat[m[K'
+   29 |     float kp_, [01;31m[Kfloat[m[K ki_, float kd_;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:31:25:[m[K [01;31m[Kerror: [m[K'[01m[Kki_[m[K' was not declared in this scope; did you mean '[01m[Kkp_[m[K'?
+   31 |     get_parameter("ki", [01;31m[Kki_[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[Kkp_[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:32:25:[m[K [01;31m[Kerror: [m[K'[01m[Kkd_[m[K' was not declared in this scope; did you mean '[01m[Kkp_[m[K'?
+   32 |     get_parameter("kd", [01;31m[Kkd_[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[Kkp_[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

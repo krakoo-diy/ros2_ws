@@ -17,3 +17,9 @@ void PIDController::reset() {
   integral_ = 0.0;
   previous_error_ = 0.0;
 }
+
+void PIDController::setGains(double new_Kp, double new_Ki, double new_Kd) {
+  kp_ = new_Kp;
+  ki_ = new_Ki;
+  kd_ = new_Kd;
+}

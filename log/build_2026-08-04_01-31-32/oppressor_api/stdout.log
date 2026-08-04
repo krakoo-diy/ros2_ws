@@ -1,0 +1,3 @@
+[ 42%] Built target image_processing
+[ 71%] Built target controller
+[ 85%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m

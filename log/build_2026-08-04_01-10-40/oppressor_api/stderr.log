@@ -1,0 +1,36 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of '[01m[Kimu_callback[m[K' with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |   [01;31m[Kimu_callback[m[K(const sensor_msgs::msg::Imu::SharedPtr imu_data) {
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In lambda function:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:14:24:[m[K [01;31m[Kerror: [m[K'[01m[Kimu[m[K' was not declared in this scope
+   14 |           imu_callback([01;31m[Kimu[m[K);
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:13:61:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kimu_data[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |         "/imu", 10, [this]([01;35m[Ksensor_msgs::msg::Imu::SharedPtr imu_data[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In constructor '[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:18:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   18 |         [01;35m[K"/diff_drive_controller"[m[K, 10,
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In lambda function:
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:20:7:[m[K [01;31m[Kerror: [m[K'[01m[Kodom_callback[m[K' was not declared in this scope; did you mean '[01m[Kimu_callback[m[K'?
+   20 |       [01;31m[Kodom_callback[m[K(odom_data);
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Kimu_callback[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In constructor '[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:21:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   21 |         [01;35m[K}[m[K);
+      |         [01;35m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:21:10:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[K)[m[K' token
+   21 |         }[01;31m[K)[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In member function '[01m[Kint ComplementaryFilter::[01;32m[Kimu_callback[m[K(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:27:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   27 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:55:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kimu_data[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 |   imu_callback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_data[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

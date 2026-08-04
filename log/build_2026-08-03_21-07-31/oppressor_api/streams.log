@@ -1,0 +1,36 @@
+[0.539s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.681s] [ 40%] Built target image_processing
+[1.682s] [ 60%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[1.686s] [ 80%] [32mBuilding CXX object CMakeFiles/controller.dir/src/pid.cpp.o[0m
+[1.687s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:[m[K In member function '[01m[Kvoid PIDController::[01;32m[KsetGains[m[K(double*, double*, double*)[m[K':
+[1.687s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:22:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kdouble*[m[K' in assignment
+[1.687s]    22 |   new_Kp = [01;31m[Kkp_[m[K;
+[1.687s]       |            [01;31m[K^~~[m[K
+[1.687s]       |            [01;31m[K|[m[K
+[1.688s]       |            [01;31m[Kdouble[m[K
+[1.688s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:23:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kdouble*[m[K' in assignment
+[1.688s]    23 |   new_Ki = [01;31m[Kki_[m[K;
+[1.688s]       |            [01;31m[K^~~[m[K
+[1.688s]       |            [01;31m[K|[m[K
+[1.688s]       |            [01;31m[Kdouble[m[K
+[1.689s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/pid.cpp:24:12:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kdouble*[m[K' in assignment
+[1.689s]    24 |   new_Kd = [01;31m[Kkd_[m[K;
+[1.689s]       |            [01;31m[K^~~[m[K
+[1.689s]       |            [01;31m[K|[m[K
+[1.689s]       |            [01;31m[Kdouble[m[K
+[1.689s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:90: CMakeFiles/controller.dir/src/pid.cpp.o] Error 1
+[1.689s] gmake[2]: *** Waiting for unfinished jobs....
+[10.204s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:[m[K In member function '[01m[Kvoid controller::[01;32m[Kcallback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K':
+[10.205s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:37:29:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kdouble[m[K' to '[01m[Kdouble*[m[K'
+[10.205s]    37 |     PIDController::setGains([01;31m[Kkp_[m[K, ki_, kd_);
+[10.205s]       |                             [01;31m[K^~~[m[K
+[10.205s]       |                             [01;31m[K|[m[K
+[10.205s]       |                             [01;31m[Kdouble[m[K
+[10.206s] In file included from [01m[K/home/user/ros2_ws/src/oppressor_api/src/controller.cpp:10[m[K:
+[10.206s] [01m[K/home/user/ros2_ws/src/oppressor_api/include/pid.h:7:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of '[01m[Kvoid PIDController::[01;32m[KsetGains[m[K(double*, double*, double*)[m[K'
+[10.206s]     7 |   void setGains([01;36m[Kdouble *new_Kp[m[K, double *new_Ki, double *new_Kd);
+[10.207s]       |                 [01;36m[K~~~~~~~~^~~~~~[m[K
+[14.627s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[14.627s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller.dir/all] Error 2
+[14.627s] gmake: *** [Makefile:146: all] Error 2
+[14.629s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

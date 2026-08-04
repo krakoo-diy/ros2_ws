@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'ARM_MK1_description'}
+[0.000269] (-) JobUnselected: {'identifier': 'bullet_arm_description'}
+[0.000311] (-) JobUnselected: {'identifier': 'oppressor_mk1_description'}
+[0.000348] (-) JobUnselected: {'identifier': 'oppressor_mk3_description'}
+[0.000382] (-) JobUnselected: {'identifier': 'qube_1_description'}
+[0.000417] (-) JobUnselected: {'identifier': 'r_arm_description'}
+[0.000500] (-) JobUnselected: {'identifier': 'robot_mk1_description'}
+[0.000540] (-) JobUnselected: {'identifier': 'robot_urdf_description'}
+[0.000574] (-) JobUnselected: {'identifier': 'rosbot_api'}
+[0.000609] (-) JobUnselected: {'identifier': 'rosbot_description'}
+[0.000645] (-) JobUnselected: {'identifier': 'rosbot_mk3_description'}
+[0.000687] (oppressor_api) JobQueued: {'identifier': 'oppressor_api', 'dependencies': OrderedDict()}
+[0.000728] (oppressor_api) JobStarted: {'identifier': 'oppressor_api'}
+[0.075476] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'cmake'}
+[0.076700] (oppressor_api) JobProgress: {'identifier': 'oppressor_api', 'progress': 'build'}
+[0.078848] (oppressor_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/oppressor_api', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/oppressor_api', 'env': OrderedDict({'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'PKG_CONFIG_PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/simulations/ros2_sims_ws/install/cyclonedds/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'ROBOT_HOSTNAME': '', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'PWD': '/home/user/ros2_ws/build/oppressor_api', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/oppressor_api:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp:/home/simulations/ros2_sims_ws/install/cyclonedds:/home/user/ros2_ws/install/rosbot_api:/home/user/ros2_ws/install/oppressor_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/rosbot_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/rosbot_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_urdf_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/robot_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/qube_1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/oppressor_mk1_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/bullet_arm_description/lib/python3.12/site-packages:/home/user/ros2_ws/install/ARM_MK1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/rmw_cyclonedds_cpp/lib:/home/simulations/ros2_sims_ws/install/cyclonedds/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:', 'SLOT_SHELL_START_ID': '1027372', 'SLOT_PREFIX': 'db29afd4-0127-4d49-a0ea-8f0469d26fe6', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25300', 'SLOT_SYSTEMD': 'False', 'PATH': '/home/simulations/ros2_sims_ws/install/cyclonedds/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'jazzy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'jazzy', 'GAZEBO_VERBOSE': '0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}), 'shell': False}
+[0.089713] (-) TimerEvent: {}
+[0.197308] (-) TimerEvent: {}
+[0.297692] (-) TimerEvent: {}
+[0.408880] (-) TimerEvent: {}
+[0.574186] (-) TimerEvent: {}
+[0.674565] (-) TimerEvent: {}
+[0.774888] (-) TimerEvent: {}
+[0.781198] (oppressor_api) StdoutLine: {'line': b'[ 42%] Built target image_processing\n'}
+[0.781596] (oppressor_api) StdoutLine: {'line': b'[ 71%] Built target controller\n'}
+[0.875006] (-) TimerEvent: {}
+[0.897888] (oppressor_api) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o\x1b[0m\n'}
+[0.975133] (-) TimerEvent: {}
+[1.075544] (-) TimerEvent: {}
+[1.176312] (-) TimerEvent: {}
+[1.280025] (-) TimerEvent: {}
+[1.380382] (-) TimerEvent: {}
+[1.481182] (-) TimerEvent: {}
+[1.581911] (-) TimerEvent: {}
+[1.682997] (-) TimerEvent: {}
+[1.783641] (-) TimerEvent: {}
+[1.883983] (-) TimerEvent: {}
+[1.984344] (-) TimerEvent: {}
+[2.089826] (-) TimerEvent: {}
+[2.190931] (-) TimerEvent: {}
+[2.292500] (-) TimerEvent: {}
+[2.394116] (-) TimerEvent: {}
+[2.494697] (-) TimerEvent: {}
+[2.595070] (-) TimerEvent: {}
+[2.698283] (-) TimerEvent: {}
+[2.799418] (-) TimerEvent: {}
+[2.974303] (-) TimerEvent: {}
+[3.074675] (-) TimerEvent: {}
+[3.175709] (-) TimerEvent: {}
+[3.276898] (-) TimerEvent: {}
+[3.379118] (-) TimerEvent: {}
+[3.479802] (-) TimerEvent: {}
+[3.580182] (-) TimerEvent: {}
+[3.681017] (-) TimerEvent: {}
+[3.781402] (-) TimerEvent: {}
+[3.882003] (-) TimerEvent: {}
+[3.982406] (-) TimerEvent: {}
+[4.084047] (-) TimerEvent: {}
+[4.184634] (-) TimerEvent: {}
+[4.285836] (-) TimerEvent: {}
+[4.386327] (-) TimerEvent: {}
+[4.488301] (-) TimerEvent: {}
+[4.588721] (-) TimerEvent: {}
+[4.689106] (-) TimerEvent: {}
+[4.789510] (-) TimerEvent: {}
+[4.890862] (-) TimerEvent: {}
+[4.991848] (-) TimerEvent: {}
+[5.092214] (-) TimerEvent: {}
+[5.192576] (-) TimerEvent: {}
+[5.293181] (-) TimerEvent: {}
+[5.393528] (-) TimerEvent: {}
+[5.494701] (-) TimerEvent: {}
+[5.595136] (-) TimerEvent: {}
+[5.695560] (-) TimerEvent: {}
+[5.874208] (-) TimerEvent: {}
+[5.974734] (-) TimerEvent: {}
+[6.078280] (-) TimerEvent: {}
+[6.180041] (-) TimerEvent: {}
+[6.280427] (-) TimerEvent: {}
+[6.380782] (-) TimerEvent: {}
+[6.482460] (-) TimerEvent: {}
+[6.582835] (-) TimerEvent: {}
+[6.683476] (-) TimerEvent: {}
+[6.784536] (-) TimerEvent: {}
+[6.886405] (-) TimerEvent: {}
+[6.988074] (-) TimerEvent: {}
+[7.089615] (-) TimerEvent: {}
+[7.190256] (-) TimerEvent: {}
+[7.291629] (-) TimerEvent: {}
+[7.392010] (-) TimerEvent: {}
+[7.492378] (-) TimerEvent: {}
+[7.592751] (-) TimerEvent: {}
+[7.695373] (-) TimerEvent: {}
+[7.795743] (-) TimerEvent: {}
+[7.896447] (-) TimerEvent: {}
+[7.996859] (-) TimerEvent: {}
+[8.097657] (-) TimerEvent: {}
+[8.198312] (-) TimerEvent: {}
+[8.298670] (-) TimerEvent: {}
+[8.398978] (-) TimerEvent: {}
+[8.574156] (-) TimerEvent: {}
+[8.674546] (-) TimerEvent: {}
+[8.774960] (-) TimerEvent: {}
+[8.875510] (-) TimerEvent: {}
+[8.975889] (-) TimerEvent: {}
+[9.076238] (-) TimerEvent: {}
+[9.177433] (-) TimerEvent: {}
+[9.277861] (-) TimerEvent: {}
+[9.378261] (-) TimerEvent: {}
+[9.479725] (-) TimerEvent: {}
+[9.580978] (-) TimerEvent: {}
+[9.681511] (-) TimerEvent: {}
+[9.783811] (-) TimerEvent: {}
+[9.884848] (-) TimerEvent: {}
+[9.987601] (-) TimerEvent: {}
+[10.088455] (-) TimerEvent: {}
+[10.199894] (-) TimerEvent: {}
+[10.300253] (-) TimerEvent: {}
+[10.474169] (-) TimerEvent: {}
+[10.574670] (-) TimerEvent: {}
+[10.675011] (-) TimerEvent: {}
+[10.775999] (-) TimerEvent: {}
+[10.876383] (-) TimerEvent: {}
+[10.978272] (-) TimerEvent: {}
+[11.078632] (-) TimerEvent: {}
+[11.179003] (-) TimerEvent: {}
+[11.279408] (-) TimerEvent: {}
+[11.379855] (-) TimerEvent: {}
+[11.480553] (-) TimerEvent: {}
+[11.581545] (-) TimerEvent: {}
+[11.682564] (-) TimerEvent: {}
+[11.784714] (-) TimerEvent: {}
+[11.885084] (-) TimerEvent: {}
+[11.985491] (-) TimerEvent: {}
+[12.087069] (-) TimerEvent: {}
+[12.187453] (-) TimerEvent: {}
+[12.287821] (-) TimerEvent: {}
+[12.388454] (-) TimerEvent: {}
+[12.488838] (-) TimerEvent: {}
+[12.589515] (-) TimerEvent: {}
+[12.690156] (-) TimerEvent: {}
+[12.791285] (-) TimerEvent: {}
+[12.892214] (-) TimerEvent: {}
+[12.992600] (-) TimerEvent: {}
+[13.093613] (-) TimerEvent: {}
+[13.194555] (-) TimerEvent: {}
+[13.378312] (-) TimerEvent: {}
+[13.479250] (-) TimerEvent: {}
+[13.580261] (-) TimerEvent: {}
+[13.682346] (-) TimerEvent: {}
+[13.784631] (-) TimerEvent: {}
+[13.885646] (-) TimerEvent: {}
+[13.987295] (-) TimerEvent: {}
+[14.088356] (-) TimerEvent: {}
+[14.194145] (-) TimerEvent: {}
+[14.295292] (-) TimerEvent: {}
+[14.395651] (-) TimerEvent: {}
+[14.496028] (-) TimerEvent: {}
+[14.600758] (-) TimerEvent: {}
+[14.702242] (-) TimerEvent: {}
+[14.802669] (-) TimerEvent: {}
+[14.974240] (-) TimerEvent: {}
+[15.074594] (-) TimerEvent: {}
+[15.175719] (-) TimerEvent: {}
+[15.276519] (-) TimerEvent: {}
+[15.377676] (-) TimerEvent: {}
+[15.478627] (-) TimerEvent: {}
+[15.579735] (-) TimerEvent: {}
+[15.680685] (-) TimerEvent: {}
+[15.781700] (-) TimerEvent: {}
+[15.883105] (-) TimerEvent: {}
+[15.983760] (-) TimerEvent: {}
+[16.084135] (-) TimerEvent: {}
+[16.185250] (-) TimerEvent: {}
+[16.286255] (-) TimerEvent: {}
+[16.387109] (-) TimerEvent: {}
+[16.487894] (-) TimerEvent: {}
+[16.588301] (-) TimerEvent: {}
+[16.691568] (-) TimerEvent: {}
+[16.791947] (-) TimerEvent: {}
+[16.795662] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KComplementaryFilter::\x1b[01;32m\x1b[KComplementaryFilter\x1b[m\x1b[K()\x1b[m\x1b[K':\n"}
+[16.796051] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:16:189:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for '\x1b[01m\x1b[Koperator=\x1b[m\x1b[K' (operand types are '\x1b[01m\x1b[Krclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >\x1b[m\x1b[K'} and '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >\x1b[m\x1b[K')\n"}
+[16.796182] (oppressor_api) StderrLine: {'line': b'   16 | aredPtr>("/diff_drive_controller", 10,[this](nav_msgs::msg::Odometry::SharedPtr odom_data) {odom_callback(odom_data);}\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.796297] (oppressor_api) StderrLine: {'line': b'      |                                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.796425] (oppressor_api) StderrLine: {'line': b'\n'}
+[16.796571] (oppressor_api) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[16.796716] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:3\x1b[m\x1b[K:\n'}
+[16.796861] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:418:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::shared_ptr<_Yp>&) \x1b[35m\x1b[K[with _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.797013] (oppressor_api) StderrLine: {'line': b'  418 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[16.797156] (oppressor_api) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.797298] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:418:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.876431] (oppressor_api) StderrLine: {'line': b"/usr/include/c++/13/bits/shared_ptr.h: In substitution of '\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type \x1b[35m\x1b[K[with _Arg = const std::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K':\n"}
+[16.876743] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:418:2:\x1b[m\x1b[K   required by substitution of '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::shared_ptr<_Tp>&) \x1b[35m\x1b[K[with _Yp = rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.876949] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:16:189:\x1b[m\x1b[K   required from here\n'}
+[16.877104] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:183:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named '\x1b[01m\x1b[Ktype\x1b[m\x1b[K' in '\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >&>\x1b[m\x1b[K'\n"}
+[16.877263] (oppressor_api) StderrLine: {'line': b'  183 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[16.877643] (oppressor_api) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.877824] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:429:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::auto_ptr<_Up>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.879044] (oppressor_api) StderrLine: {'line': b'  429 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[16.879372] (oppressor_api) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.879540] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:429:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.879698] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:16:189:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >\x1b[m\x1b[K' is not derived from '\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K'\n"}
+[16.879860] (oppressor_api) StderrLine: {'line': b'   16 | aredPtr>("/diff_drive_controller", 10,[this](nav_msgs::msg::Odometry::SharedPtr odom_data) {odom_callback(odom_data);}\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.880019] (oppressor_api) StderrLine: {'line': b'      |                                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.880319] (oppressor_api) StderrLine: {'line': b'\n'}
+[16.880473] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:446:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::shared_ptr<_Yp>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.880633] (oppressor_api) StderrLine: {'line': b'  446 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[16.880782] (oppressor_api) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.880936] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:446:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.881090] (oppressor_api) StderrLine: {'line': b"/usr/include/c++/13/bits/shared_ptr.h: In substitution of '\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type \x1b[35m\x1b[K[with _Arg = std::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K':\n"}
+[16.881268] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:446:2:\x1b[m\x1b[K   required by substitution of '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::shared_ptr<_Tp>&&) \x1b[35m\x1b[K[with _Yp = rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.881723] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:16:189:\x1b[m\x1b[K   required from here\n'}
+[16.881917] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:183:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named '\x1b[01m\x1b[Ktype\x1b[m\x1b[K' in '\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >&>\x1b[m\x1b[K'\n"}
+[16.882116] (oppressor_api) StderrLine: {'line': b'  183 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[16.882272] (oppressor_api) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.882421] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:454:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::unique_ptr<_Up, _Ep>&&) \x1b[35m\x1b[K[with _Del = _Yp; _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.882594] (oppressor_api) StderrLine: {'line': b'  454 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[16.882752] (oppressor_api) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.882878] (oppressor_api) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:454:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.883057] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:16:189:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >\x1b[m\x1b[K' is not derived from '\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K'\n"}
+[16.883206] (oppressor_api) StderrLine: {'line': b'   16 | aredPtr>("/diff_drive_controller", 10,[this](nav_msgs::msg::Odometry::SharedPtr odom_data) {odom_callback(odom_data);}\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.883370] (oppressor_api) StderrLine: {'line': b'      |                                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.883520] (oppressor_api) StderrLine: {'line': b'\n'}
+[16.883712] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:414:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::shared_ptr<_Tp>&) \x1b[35m\x1b[K[with _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.883865] (oppressor_api) StderrLine: {'line': b'  414 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[16.884022] (oppressor_api) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.884313] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:414:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >\x1b[m\x1b[K' to '\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >&\x1b[m\x1b[K'\n"}
+[16.884571] (oppressor_api) StderrLine: {'line': b'  414 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[16.884720] (oppressor_api) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.884867] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:438:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::shared_ptr<_Tp>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K'\n"}
+[16.885017] (oppressor_api) StderrLine: {'line': b'  438 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[16.885162] (oppressor_api) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.885363] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:438:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void>, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >, std::allocator<void> > > >\x1b[m\x1b[K' to '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> > > >&&\x1b[m\x1b[K'\n"}
+[16.885538] (oppressor_api) StderrLine: {'line': b'  438 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[16.885684] (oppressor_api) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[16.886011] (oppressor_api) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[16.886262] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[16.886372] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[16.886535] (oppressor_api) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:6\x1b[m\x1b[K:\n'}
+[16.886716] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid ComplementaryFilter::\x1b[01;32m\x1b[Kodom_callback\x1b[m\x1b[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K':\n"}
+[16.886874] (oppressor_api) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:25:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kusing nav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K'} has no member named '\x1b[01m\x1b[Kx\x1b[m\x1b[K'\n"}
+[16.887035] (oppressor_api) StderrLine: {'line': b'   25 |     RCLCPP_INFO(get_logger(), "Odom %f", odom_data->pose.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K);\n'}
+[16.887187] (oppressor_api) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.893178] (-) TimerEvent: {}
+[16.994082] (-) TimerEvent: {}
+[17.094464] (-) TimerEvent: {}
+[17.194851] (-) TimerEvent: {}
+[17.295240] (-) TimerEvent: {}
+[17.395627] (-) TimerEvent: {}
+[17.496658] (-) TimerEvent: {}
+[17.674460] (-) TimerEvent: {}
+[17.781776] (-) TimerEvent: {}
+[17.884630] (-) TimerEvent: {}
+[17.986239] (-) TimerEvent: {}
+[18.087385] (-) TimerEvent: {}
+[18.188454] (-) TimerEvent: {}
+[18.289908] (-) TimerEvent: {}
+[18.390960] (-) TimerEvent: {}
+[18.493011] (-) TimerEvent: {}
+[18.594112] (-) TimerEvent: {}
+[18.694471] (-) TimerEvent: {}
+[18.795472] (-) TimerEvent: {}
+[18.898134] (-) TimerEvent: {}
+[18.998442] (-) TimerEvent: {}
+[19.174151] (-) TimerEvent: {}
+[19.274503] (-) TimerEvent: {}
+[19.375454] (-) TimerEvent: {}
+[19.477183] (-) TimerEvent: {}
+[19.579323] (-) TimerEvent: {}
+[19.680059] (-) TimerEvent: {}
+[19.780446] (-) TimerEvent: {}
+[19.880852] (-) TimerEvent: {}
+[19.987306] (-) TimerEvent: {}
+[20.088528] (-) TimerEvent: {}
+[20.189569] (-) TimerEvent: {}
+[20.290995] (-) TimerEvent: {}
+[20.396598] (-) TimerEvent: {}
+[20.574143] (-) TimerEvent: {}
+[20.675188] (-) TimerEvent: {}
+[20.776383] (-) TimerEvent: {}
+[20.877471] (-) TimerEvent: {}
+[20.978111] (-) TimerEvent: {}
+[21.078496] (-) TimerEvent: {}
+[21.179153] (-) TimerEvent: {}
+[21.279539] (-) TimerEvent: {}
+[21.379945] (-) TimerEvent: {}
+[21.481006] (-) TimerEvent: {}
+[21.581721] (-) TimerEvent: {}
+[21.682473] (-) TimerEvent: {}
+[21.783686] (-) TimerEvent: {}
+[21.884710] (-) TimerEvent: {}
+[21.985065] (-) TimerEvent: {}
+[22.087978] (-) TimerEvent: {}
+[22.188570] (-) TimerEvent: {}
+[22.288947] (-) TimerEvent: {}
+[22.389331] (-) TimerEvent: {}
+[22.489774] (-) TimerEvent: {}
+[22.590537] (-) TimerEvent: {}
+[22.695648] (-) TimerEvent: {}
+[22.796736] (-) TimerEvent: {}
+[22.897144] (-) TimerEvent: {}
+[23.005604] (-) TimerEvent: {}
+[23.174160] (-) TimerEvent: {}
+[23.275211] (-) TimerEvent: {}
+[23.376167] (-) TimerEvent: {}
+[23.477263] (-) TimerEvent: {}
+[23.578896] (-) TimerEvent: {}
+[23.679290] (-) TimerEvent: {}
+[23.779950] (-) TimerEvent: {}
+[23.880625] (-) TimerEvent: {}
+[23.980999] (-) TimerEvent: {}
+[24.081364] (-) TimerEvent: {}
+[24.181729] (-) TimerEvent: {}
+[24.282093] (-) TimerEvent: {}
+[24.382499] (-) TimerEvent: {}
+[24.490159] (-) TimerEvent: {}
+[24.590518] (-) TimerEvent: {}
+[24.693580] (-) TimerEvent: {}
+[24.795950] (-) TimerEvent: {}
+[24.896951] (-) TimerEvent: {}
+[24.997272] (-) TimerEvent: {}
+[25.097706] (-) TimerEvent: {}
+[25.198114] (-) TimerEvent: {}
+[25.374160] (-) TimerEvent: {}
+[25.474597] (-) TimerEvent: {}
+[25.575010] (-) TimerEvent: {}
+[25.675671] (-) TimerEvent: {}
+[25.776100] (-) TimerEvent: {}
+[25.876486] (-) TimerEvent: {}
+[25.976856] (-) TimerEvent: {}
+[26.077435] (-) TimerEvent: {}
+[26.178059] (-) TimerEvent: {}
+[26.279228] (-) TimerEvent: {}
+[26.380175] (-) TimerEvent: {}
+[26.480576] (-) TimerEvent: {}
+[26.581059] (-) TimerEvent: {}
+[26.682003] (-) TimerEvent: {}
+[26.783515] (-) TimerEvent: {}
+[26.884544] (-) TimerEvent: {}
+[26.984924] (-) TimerEvent: {}
+[27.085738] (-) TimerEvent: {}
+[27.186860] (-) TimerEvent: {}
+[27.287974] (-) TimerEvent: {}
+[27.389050] (-) TimerEvent: {}
+[27.496595] (-) TimerEvent: {}
+[27.597952] (-) TimerEvent: {}
+[27.699164] (-) TimerEvent: {}
+[27.874235] (-) TimerEvent: {}
+[27.975128] (-) TimerEvent: {}
+[28.075503] (-) TimerEvent: {}
+[28.175859] (-) TimerEvent: {}
+[28.278353] (-) TimerEvent: {}
+[28.378713] (-) TimerEvent: {}
+[28.479086] (-) TimerEvent: {}
+[28.580978] (-) TimerEvent: {}
+[28.682801] (-) TimerEvent: {}
+[28.783986] (-) TimerEvent: {}
+[28.884664] (-) TimerEvent: {}
+[28.985057] (-) TimerEvent: {}
+[29.085455] (-) TimerEvent: {}
+[29.185846] (-) TimerEvent: {}
+[29.287335] (-) TimerEvent: {}
+[29.387753] (-) TimerEvent: {}
+[29.488133] (-) TimerEvent: {}
+[29.588530] (-) TimerEvent: {}
+[29.689502] (-) TimerEvent: {}
+[29.790621] (-) TimerEvent: {}
+[29.892306] (-) TimerEvent: {}
+[29.993231] (-) TimerEvent: {}
+[30.093835] (-) TimerEvent: {}
+[30.199811] (-) TimerEvent: {}
+[30.300821] (-) TimerEvent: {}
+[30.401119] (-) TimerEvent: {}
+[30.502096] (-) TimerEvent: {}
+[30.674140] (-) TimerEvent: {}
+[30.774644] (-) TimerEvent: {}
+[30.875003] (-) TimerEvent: {}
+[30.976251] (-) TimerEvent: {}
+[31.077465] (-) TimerEvent: {}
+[31.177840] (-) TimerEvent: {}
+[31.278883] (-) TimerEvent: {}
+[31.380373] (-) TimerEvent: {}
+[31.480733] (-) TimerEvent: {}
+[31.581118] (-) TimerEvent: {}
+[31.681974] (-) TimerEvent: {}
+[31.783363] (-) TimerEvent: {}
+[31.883943] (-) TimerEvent: {}
+[31.984272] (-) TimerEvent: {}
+[32.085111] (-) TimerEvent: {}
+[32.187499] (-) TimerEvent: {}
+[32.290197] (-) TimerEvent: {}
+[32.394235] (-) TimerEvent: {}
+[32.494685] (-) TimerEvent: {}
+[32.595041] (-) TimerEvent: {}
+[32.695356] (-) TimerEvent: {}
+[32.796453] (-) TimerEvent: {}
+[32.896815] (-) TimerEvent: {}
+[32.997826] (-) TimerEvent: {}
+[33.098235] (-) TimerEvent: {}
+[33.202142] (-) TimerEvent: {}
+[33.374172] (-) TimerEvent: {}
+[33.475901] (-) TimerEvent: {}
+[33.578943] (-) TimerEvent: {}
+[33.681185] (-) TimerEvent: {}
+[33.782427] (-) TimerEvent: {}
+[33.883439] (-) TimerEvent: {}
+[33.984627] (-) TimerEvent: {}
+[34.085017] (-) TimerEvent: {}
+[34.186584] (-) TimerEvent: {}
+[34.198027] (oppressor_api) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1\n'}
+[34.198542] (oppressor_api) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2\n'}
+[34.198944] (oppressor_api) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[34.201961] (oppressor_api) CommandEnded: {'returncode': 2}
+[34.288513] (-) TimerEvent: {}
+[34.292502] (oppressor_api) JobEnded: {'identifier': 'oppressor_api', 'rc': 2}
+[34.295030] (-) EventReactorShutdown: {}
