@@ -16,6 +16,9 @@ find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(message_filters REQUIRED)
+find_package(tf2)
+find_package(tf2_geometry_msgs)
+
 
 
 add_executable(image_processing src/image_processing.cpp)
@@ -26,8 +29,13 @@ ament_target_dependencies(controller rclcpp std_msgs geometry_msgs)
 
 target_include_directories(controller PUBLIC include/)
 
-add_executable(complementary_filter src/complementary_filter_node.cpp)
-ament_target_dependencies(complementary_filter rclcpp sensor_msgs nav_msgs message_filters)
+add_executable(complementary_filter 
+	src/complementary_filter_node.cpp
+	src/complementary_filter.cpp
+)
+ament_target_dependencies(complementary_filter rclcpp sensor_msgs nav_msgs message_filters tf2 tf2_geometry_msgs)
+
+target_include_directories(complementary_filter PUBLIC include/)
 
 
 install(TARGETS 

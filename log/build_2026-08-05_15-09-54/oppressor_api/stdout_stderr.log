@@ -1,0 +1,29 @@
+[ 37%] Built target controller
+[ 62%] Built target image_processing
+[ 75%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:44:14:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kf_angle[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |         auto [01;35m[Kf_angle[m[K = cp_.update(imu_angularV_z, yow, dt);
+      |              [01;35m[K^~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable complementary_filter[0m
+[100%] Built target complementary_filter
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/image_processing
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/controller
+-- Installing: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter
+-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter" to ""
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/package_run_dependencies/oppressor_api
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/parent_prefix_path/oppressor_api
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/packages/oppressor_api
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.xml

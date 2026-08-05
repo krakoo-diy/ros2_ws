@@ -1,0 +1,19 @@
+[4.672s] Invoking command in '/home/user/ros2_ws/src/r_arm_description': PYTHONPATH=/home/user/ros2_ws/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r_arm_description build --build-base /home/user/ros2_ws/build/r_arm_description/build install --record /home/user/ros2_ws/build/r_arm_description/install.log --single-version-externally-managed install_data
+[6.653s] running egg_info
+[6.761s] writing ../../build/r_arm_description/r_arm_description.egg-info/PKG-INFO
+[6.762s] writing dependency_links to ../../build/r_arm_description/r_arm_description.egg-info/dependency_links.txt
+[6.762s] writing requirements to ../../build/r_arm_description/r_arm_description.egg-info/requires.txt
+[6.763s] writing top-level names to ../../build/r_arm_description/r_arm_description.egg-info/top_level.txt
+[6.971s] reading manifest file '../../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+[6.973s] writing manifest file '../../build/r_arm_description/r_arm_description.egg-info/SOURCES.txt'
+[6.973s] running build
+[6.974s] running build_py
+[6.974s] running install
+[7.071s] running install_lib
+[7.254s] running install_data
+[7.255s] running install_egg_info
+[7.377s] removing '/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description-0.0.0-py3.12.egg-info' (and everything under it)
+[7.377s] Copying ../../build/r_arm_description/r_arm_description.egg-info to /home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages/r_arm_description-0.0.0-py3.12.egg-info
+[7.378s] running install_scripts
+[8.468s] writing list of installed files to '/home/user/ros2_ws/build/r_arm_description/install.log'
+[8.678s] Invoked command in '/home/user/ros2_ws/src/r_arm_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/r_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/r_arm_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r_arm_description build --build-base /home/user/ros2_ws/build/r_arm_description/build install --record /home/user/ros2_ws/build/r_arm_description/install.log --single-version-externally-managed install_data

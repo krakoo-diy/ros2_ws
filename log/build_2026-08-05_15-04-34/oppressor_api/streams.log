@@ -1,0 +1,51 @@
+[0.615s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.570s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.571s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.571s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.572s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.573s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.573s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.268s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.586s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.880s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.178s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[3.377s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[3.759s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[3.781s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.072s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.075s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.076s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.377s] -- Configuring done (5.7s)
+[6.677s] -- Generating done (0.2s)
+[6.770s] -- Build files have been written to: /home/user/ros2_ws/build/oppressor_api
+[7.278s] [ 37%] Built target controller
+[7.359s] [ 62%] Built target image_processing
+[7.377s] [ 75%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[7.461s] [ 87%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[15.649s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[15.649s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:36:27:[m[K [01;31m[Kerror: [m[K'[01m[Kclass tf2::Matrix3x3[m[K' has no member named '[01m[Kgetrpy[m[K'; did you mean '[01m[KgetRPY[m[K'?
+[15.649s]    36 |         tf2::Matrix3x3(q).[01;31m[Kgetrpy[m[K(roll, pitch, yow);
+[15.649s]       |                           [01;31m[K^~~~~~[m[K
+[15.649s]       |                           [32m[KgetRPY[m[K
+[15.661s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:44:51:[m[K [01;31m[Kerror: [m[K'[01m[Kodom_yaw_angle[m[K' was not declared in this scope
+[15.661s]    44 |         auto f_angle = cp_.update(imu_angularV_z, [01;31m[Kodom_yaw_angle[m[K, dt);
+[15.661s]       |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.664s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.664s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[15.664s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[15.664s]                  from [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:6[m[K:
+[15.664s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:45:35:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%f[m[K' expects a matching '[01m[Kdouble[m[K' argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.665s]    45 |         RCLCPP_INFO(get_logger(), [01;35m[K"Fusioned angle: %f, %f, %f, %f"[m[K, roll, pitch, yow);
+[15.665s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.665s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:45:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.665s]    45 |         RCLCPP_INFO(get_logger(), "Fusioned angle: %f, %f, %f, [01;36m[K%f[m[K", roll, pitch, yow);
+[15.665s]       |                                                                [01;36m[K~^[m[K
+[15.665s]       |                                                                 [01;36m[K|[m[K
+[15.665s]       |                                                                 [01;36m[Kdouble[m[K
+[19.145s] gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+[19.145s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+[19.145s] gmake: *** [Makefile:146: all] Error 2
+[19.147s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

@@ -1,0 +1,12 @@
+[0.611s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.756s] [ 37%] Built target controller
+[1.757s] [ 62%] Built target image_processing
+[1.758s] [ 75%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[1.759s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In constructor '[01m[KComplementaryFilterAlgo::[01;32m[KComplementaryFilterAlgo[m[K(double)[m[K':
+[1.759s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:5:1:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K{[m[K' before '[01m[Kdouble[m[K'
+[1.759s]     5 | [01;31m[Kdouble[m[K ComplementaryFilterAlgo::update(double imu_angular_velocity,
+[1.760s]       | [01;31m[K^~~~~~[m[K
+[1.761s] gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:90: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+[1.761s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+[1.761s] gmake: *** [Makefile:146: all] Error 2
+[1.761s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

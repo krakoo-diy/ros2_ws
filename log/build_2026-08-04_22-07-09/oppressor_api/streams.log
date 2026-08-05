@@ -1,0 +1,29 @@
+[0.602s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.852s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.853s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.854s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.854s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.854s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.855s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.856s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.856s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.856s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.856s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.856s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.856s] -- Configuring done (1.0s)
+[1.856s] -- Generating done (0.0s)
+[1.856s] -- Build files have been written to: /home/user/ros2_ws/build/oppressor_api
+[1.856s] [ 12%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[1.857s] [ 50%] Built target controller
+[1.857s] [ 75%] Built target image_processing
+[1.857s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In constructor '[01m[KComplementaryFilterAlgo::[01;32m[KComplementaryFilterAlgo[m[K(double)[m[K':
+[1.857s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:4:39:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K{[m[K' before '[01m[K;[m[K' token
+[1.857s]     4 |     : alpha_(alpha), fused_angle_(0.0)[01;31m[K;[m[K
+[1.857s]       |                                       [01;31m[K^[m[K
+[1.857s] gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:90: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+[1.857s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+[1.857s] gmake: *** [Makefile:146: all] Error 2
+[2.236s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

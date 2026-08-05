@@ -1,0 +1,26 @@
+[0.667s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[2.486s] [ 28%] Built target image_processing
+[2.486s] [ 71%] Built target controller
+[2.487s] [ 85%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[9.630s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:16:105:[m[K [01;31m[Kerror: [m[Kinvalid declarator before '[01m[KSyncPolicy[m[K'
+[9.630s]    16 | typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Imu, nav_msgs::msg::Odometry> [01;31m[KSyncPolicy[m[K;
+[9.630s]       |                                                                                                         [01;31m[K^~~~~~~~~~[m[K
+[9.939s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:51:[m[K [01;31m[Kerror: [m[K'[01m[KSyncPolicy[m[K' was not declared in this scope
+[9.939s]    48 |     std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+[9.940s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[9.940s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.940s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.941s]    48 |     std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+[9.941s]       |                                                             [01;31m[K^~[m[K
+[10.052s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In constructor '[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K':
+[10.052s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:26:60:[m[K [01;31m[Kerror: [m[K'[01m[KSyncPolicy[m[K' was not declared in this scope
+[10.052s]    26 |     sync_ = std::make_shared<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>>(SyncPolicy(10), imu_sub_, odom_sub_);
+[10.052s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[10.053s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:26:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.053s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:27:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[10.053s]    27 |     sync_[01;31m[K->[m[KregisterCallback(std::bind(&ComplementaryFilter::callback, this, std::placeholders::_1, std::placeholders::_2));
+[10.053s]       |          [01;31m[K^~[m[K
+[16.869s] gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+[16.869s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+[16.870s] gmake: *** [Makefile:146: all] Error 2
+[16.873s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8

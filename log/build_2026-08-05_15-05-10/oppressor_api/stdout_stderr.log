@@ -1,0 +1,14 @@
+[ 25%] Built target image_processing
+[ 62%] Built target controller
+[ 75%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:36:27:[m[K [01;31m[Kerror: [m[K'[01m[Kclass tf2::Matrix3x3[m[K' has no member named '[01m[Kgetrpy[m[K'; did you mean '[01m[KgetRPY[m[K'?
+   36 |         tf2::Matrix3x3(q).[01;31m[Kgetrpy[m[K(roll, pitch, yow);
+      |                           [01;31m[K^~~~~~[m[K
+      |                           [32m[KgetRPY[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:44:51:[m[K [01;31m[Kerror: [m[K'[01m[Kodom_yaw_angle[m[K' was not declared in this scope
+   44 |         auto f_angle = cp_.update(imu_angularV_z, [01;31m[Kodom_yaw_angle[m[K, dt);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

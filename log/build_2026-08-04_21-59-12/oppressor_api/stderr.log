@@ -1,0 +1,21 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:16:105:[m[K [01;31m[Kerror: [m[Kinvalid declarator before '[01m[KSyncPolicy[m[K'
+   16 | typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Imu, nav_msgs::msg::Odometry> [01;31m[KSyncPolicy[m[K;
+      |                                                                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:51:[m[K [01;31m[Kerror: [m[K'[01m[KSyncPolicy[m[K' was not declared in this scope
+   48 |     std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:48:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |     std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In constructor '[01m[KComplementaryFilter::[01;32m[KComplementaryFilter[m[K()[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:26:60:[m[K [01;31m[Kerror: [m[K'[01m[KSyncPolicy[m[K' was not declared in this scope
+   26 |     sync_ = std::make_shared<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>>(SyncPolicy(10), imu_sub_, odom_sub_);
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:26:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:27:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   27 |     sync_[01;31m[K->[m[KregisterCallback(std::bind(&ComplementaryFilter::callback, this, std::placeholders::_1, std::placeholders::_2));
+      |          [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

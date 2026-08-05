@@ -1,0 +1,19 @@
+[7.297s] Invoking command in '/home/user/ros2_ws/src/oppressor_mk3_description': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data
+[10.486s] running egg_info
+[10.486s] writing ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/PKG-INFO
+[10.486s] writing dependency_links to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/dependency_links.txt
+[10.486s] writing requirements to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/requires.txt
+[10.486s] writing top-level names to ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/top_level.txt
+[10.487s] reading manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[10.487s] writing manifest file '../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info/SOURCES.txt'
+[10.487s] running build
+[10.487s] running build_py
+[10.487s] running install
+[10.488s] running install_lib
+[10.488s] running install_data
+[10.488s] running install_egg_info
+[10.488s] removing '/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info' (and everything under it)
+[10.489s] Copying ../../build/oppressor_mk3_description/oppressor_mk3_description.egg-info to /home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages/oppressor_mk3_description-0.0.0-py3.12.egg-info
+[10.489s] running install_scripts
+[10.884s] writing list of installed files to '/home/user/ros2_ws/build/oppressor_mk3_description/install.log'
+[11.504s] Invoked command in '/home/user/ros2_ws/src/oppressor_mk3_description' returned '0': PYTHONPATH=/home/user/ros2_ws/build/oppressor_mk3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/oppressor_mk3_description/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/oppressor_mk3_description build --build-base /home/user/ros2_ws/build/oppressor_mk3_description/build install --record /home/user/ros2_ws/build/oppressor_mk3_description/install.log --single-version-externally-managed install_data

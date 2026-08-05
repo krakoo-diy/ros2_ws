@@ -1,0 +1,10 @@
+[ 42%] Built target controller
+[ 71%] Built target image_processing
+[ 85%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Koppressor_api/complementary_filter.h: No such file or directory
+   13 | #include [01;31m[K"oppressor_api/complementary_filter.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:76: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

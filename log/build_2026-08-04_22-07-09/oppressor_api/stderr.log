@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:[m[K In constructor '[01m[KComplementaryFilterAlgo::[01;32m[KComplementaryFilterAlgo[m[K(double)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter.cpp:4:39:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K{[m[K' before '[01m[K;[m[K' token
+    4 |     : alpha_(alpha), fused_angle_(0.0)[01;31m[K;[m[K
+      |                                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:90: CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

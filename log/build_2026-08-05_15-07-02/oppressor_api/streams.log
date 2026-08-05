@@ -1,0 +1,36 @@
+[0.519s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[1.505s] [ 25%] Built target image_processing
+[1.507s] [ 62%] Built target controller
+[1.507s] [ 75%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[10.266s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[10.266s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:38:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kimu_angularV_z[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.267s]    38 |         double [01;35m[Kimu_angularV_z[m[K = imu->angular_velocity.z;
+[10.267s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.267s] [01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:41:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kdt[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.267s]    41 |         double [01;35m[Kdt[m[K = (current_time - last_time_).seconds();
+[10.267s]       |                [01;35m[K^~[m[K
+[22.318s] [ 87%] [32m[1mLinking CXX executable complementary_filter[0m
+[23.149s] [100%] Built target complementary_filter
+[23.160s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/oppressor_api -- -j8 -l8
+[23.162s] Invoking command in '/home/user/ros2_ws/build/oppressor_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/oppressor_api
+[23.171s] -- Install configuration: ""
+[23.171s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/image_processing
+[23.171s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/controller
+[23.171s] -- Installing: /home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter
+[23.183s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/oppressor_api/lib/oppressor_api/complementary_filter" to ""
+[23.183s] -- Installing: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/package_run_dependencies/oppressor_api
+[23.183s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/parent_prefix_path/oppressor_api
+[23.183s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.sh
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/ament_prefix_path.dsv
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.sh
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/environment/path.dsv
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.bash
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.sh
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.zsh
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/local_setup.dsv
+[23.184s] -- Installing: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.dsv
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/ament_index/resource_index/packages/oppressor_api
+[23.184s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig.cmake
+[23.185s] -- Up-to-date: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/cmake/oppressor_apiConfig-version.cmake
+[23.185s] -- Installing: /home/user/ros2_ws/install/oppressor_api/share/oppressor_api/package.xml
+[23.186s] Invoked command in '/home/user/ros2_ws/build/oppressor_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rosbot_mk3_description:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/robot_urdf_description:/home/user/ros2_ws/install/robot_mk1_description:/home/user/ros2_ws/install/qube_1_description:/home/user/ros2_ws/install/oppressor_mk3_description:/home/user/ros2_ws/install/oppressor_mk1_description:/home/user/ros2_ws/install/bullet_arm_description:/home/user/ros2_ws/install/ARM_MK1_description:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/oppressor_api

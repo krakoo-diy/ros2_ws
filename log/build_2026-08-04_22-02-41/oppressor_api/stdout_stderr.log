@@ -1,0 +1,12 @@
+[ 28%] Built target image_processing
+[ 71%] Built target controller
+[ 85%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable complementary_filter[0m
+/usr/bin/ld: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o: in function `ComplementaryFilter::ComplementaryFilter()':
+complementary_filter_node.cpp:(.text._ZN19ComplementaryFilterC2Ev[_ZN19ComplementaryFilterC5Ev]+0x177): undefined reference to `ComplementaryFilterAlgo::ComplementaryFilterAlgo(double)'
+/usr/bin/ld: CMakeFiles/complementary_filter.dir/src/complementary_filter_node.cpp.o: in function `ComplementaryFilter::callback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > const> const&, std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > const> const&)':
+complementary_filter_node.cpp:(.text._ZN19ComplementaryFilter8callbackERKSt10shared_ptrIKN11sensor_msgs3msg4Imu_ISaIvEEEERKS0_IKN8nav_msgs3msg9Odometry_IS4_EEE[_ZN19ComplementaryFilter8callbackERKSt10shared_ptrIKN11sensor_msgs3msg4Imu_ISaIvEEEERKS0_IKN8nav_msgs3msg9Odometry_IS4_EEE]+0x131): undefined reference to `ComplementaryFilterAlgo::update(double, double, double)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:195: complementary_filter] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/complementary_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

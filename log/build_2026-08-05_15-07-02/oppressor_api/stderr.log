@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:[m[K In member function '[01m[Kvoid ComplementaryFilter::[01;32m[Kcallback[m[K(const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K':
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:38:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kimu_angularV_z[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   38 |         double [01;35m[Kimu_angularV_z[m[K = imu->angular_velocity.z;
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/oppressor_api/src/complementary_filter_node.cpp:41:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kdt[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |         double [01;35m[Kdt[m[K = (current_time - last_time_).seconds();
+      |                [01;35m[K^~[m[K
